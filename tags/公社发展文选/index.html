@@ -32,6 +32,8 @@
 <meta name="twitter:card" content="summary">
   
   
+  
+  
 
   <!-- feed -->
   
@@ -74,7 +76,7 @@
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="/medias/avatar.svg" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">M&A互助联盟</div><div class="sub normal cap">Magnet Student Commune</div><div class="sub hover cap" style="opacity:0"> AoMe Mutual Aid Commune</div></a></div>
 
-<nav class="menu dis-select"><a class="nav-item active" href="/">文章</a><a class="nav-item" href="/document/">项目</a><a class="nav-item" href="/friends/">友链</a><a class="nav-item" href="/about/">关于</a></nav>
+<nav class="menu dis-select"><a class="nav-item active" href="/">文章</a><a class="nav-item" href="/document/">文档</a><a class="nav-item" href="/friends/">友链</a><a class="nav-item" href="/about/">关于</a></nav>
 </header>
 
 
@@ -110,7 +112,7 @@
 关于磁铁公社，可以联想到若干年前的巴黎公社，但两者存在着本质的差别，那么这里将分为三部分（共十大关系）浅论一下。
 
 #一、论公社的基本制度
-   是巴黎公社所倡导的，从同一个起始点出发，信仰社会主义制度，与巴黎公社不同，巴黎公社是无产阶级的第一次伟大尝试，而我们的磁铁公社是新时代中国社会主义所促进的同学相互帮助的和谐集体，那么磁铁公社的基本性质可大致理解为：以完全遵守中国社...</p></div><div class="meta cap"><span class="cap" id="post-meta">发布于&nbsp;<time datetime="2023-04-24T18:25:00.000Z">2023-04-24</time></span><span class="cap breadcrumb">威权社会主义—务实派</span></div></article>
+   是巴黎公社所倡导的，从同一个起始点出发，信仰社会主义制度，与巴黎公社不同，巴黎公社是无产阶级的第一次伟大尝试，而我们的磁铁公社是新时代中国社会主义所促进的同学相互帮助的和谐集体，那么磁铁公社的基本性质可大致理解为：以完全遵守中国社...</p></div><div class="meta cap"><span class="cap" id="post-meta">发布于&nbsp;<time datetime="2023-04-24T18:25:00.000Z">2023-04-24</time>&nbsp;作者:孙﹡东</span><span class="cap breadcrumb">威权社会主义—务实派</span></div></article>
 </a></div>
   
 
@@ -197,6 +199,9 @@ Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | 
     // 从 butterfly 和 volantis 获得灵感
     loadScript: (src, opt) => new Promise((resolve, reject) => {
       var script = document.createElement('script');
+      if (src.startsWith('/')){
+        src = stellar.config.root + src.substring(1);
+      }
       script.src = src;
       if (opt) {
         for (let key of Object.keys(opt)) {
@@ -235,6 +240,7 @@ Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | 
       day: '天前',
       month: '个月前',
     },
+    root : '/',
   };
 
   // required plugins (only load if needs)
@@ -289,7 +295,7 @@ Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | 
 
 <!-- inject -->
 
-
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </div>
 </body>
 </html>

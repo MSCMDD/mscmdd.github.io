@@ -32,6 +32,8 @@
 <meta name="twitter:card" content="summary">
   
   
+  
+  
 
   <!-- feed -->
   
@@ -74,7 +76,7 @@
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="/medias/avatar.svg" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">M&A互助联盟</div><div class="sub normal cap">Magnet Student Commune</div><div class="sub hover cap" style="opacity:0"> AoMe Mutual Aid Commune</div></a></div>
 
-<nav class="menu dis-select"><a class="nav-item active" href="/">文章</a><a class="nav-item" href="/document/">项目</a><a class="nav-item" href="/friends/">友链</a><a class="nav-item" href="/about/">关于</a></nav>
+<nav class="menu dis-select"><a class="nav-item active" href="/">文章</a><a class="nav-item" href="/document/">文档</a><a class="nav-item" href="/friends/">友链</a><a class="nav-item" href="/about/">关于</a></nav>
 </header>
 
 
@@ -184,6 +186,7 @@
                 
       						向“改革开放”学习
       					
+						——孙﹡东
               </span>
     				</a>
           </div>
@@ -195,6 +198,7 @@
                 
       						浅论磁铁公社十大关系
       					
+						——孙﹡东
               </span>
     				</a>
           </div>
@@ -206,6 +210,7 @@
                 
       						论公社五一劳动节活动一事
       					
+						——孙﹡东
               </span>
     				</a>
           </div>
@@ -217,6 +222,7 @@
                 
       						对于磁铁公社近期矛盾的看法
       					
+						——梁﹡铭（磁铁公社现任社长）
               </span>
     				</a>
           </div>
@@ -228,6 +234,7 @@
                 
       						浅谈关于公社生死存亡问题及更好发展问题的联系
       					
+						——李﹡竣
               </span>
     				</a>
           </div>
@@ -239,6 +246,7 @@
                 
       						我们为何发展公社
       					
+						——梁﹡铭（磁铁公社现任社长）
               </span>
     				</a>
           </div>
@@ -250,6 +258,7 @@
                 
       						论磁铁公社性质
       					
+						——梁﹡铭（磁铁公社现任社长）
               </span>
     				</a>
           </div>
@@ -261,6 +270,7 @@
                 
       						磁铁学生公社二高分部临时会议圆满结束！
       					
+						——梁﹡铭（磁铁公社现任社长）
               </span>
     				</a>
           </div>
@@ -272,6 +282,7 @@
                 
       						生活
       					
+						——Ленинград
               </span>
     				</a>
           </div>
@@ -283,6 +294,7 @@
                 
       						网页分割
       					
+						——Ленинград
               </span>
     				</a>
           </div>
@@ -294,6 +306,7 @@
                 
       						学业
       					
+						——Ленинград
               </span>
     				</a>
           </div>
@@ -305,6 +318,7 @@
                 
       						搭建的第一个博客！
       					
+						——Ленинград
               </span>
     				</a>
           </div>
@@ -316,6 +330,7 @@
                 
       						Hello World
       					
+						——AoMe奥美互助公社
               </span>
     				</a>
           </div>
@@ -404,6 +419,9 @@ Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | 
     // 从 butterfly 和 volantis 获得灵感
     loadScript: (src, opt) => new Promise((resolve, reject) => {
       var script = document.createElement('script');
+      if (src.startsWith('/')){
+        src = stellar.config.root + src.substring(1);
+      }
       script.src = src;
       if (opt) {
         for (let key of Object.keys(opt)) {
@@ -442,6 +460,7 @@ Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | 
       day: '天前',
       month: '个月前',
     },
+    root : '/',
   };
 
   // required plugins (only load if needs)
@@ -496,7 +515,7 @@ Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | 
 
 <!-- inject -->
 
-
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </div>
 </body>
 </html>
