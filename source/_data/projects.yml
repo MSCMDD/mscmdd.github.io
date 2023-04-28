@@ -1,0 +1,42 @@
+### document#
+aboutam:
+  name: 关于M&A互助联盟
+  title: 关于M&A互助联盟
+  subtitle: 'MSC & AoMe | AoMe & MSC'
+  tags: 关于联盟
+  cover: true
+  logo:
+    src: https://msc-a.netlify.app/medias/logo.svg
+    small: 112px
+    large: 240px
+  description: MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物。
+  sections:
+    '双公社联盟': [0, 99]
+    '关于MSC磁铁学生公社': [100, 199]
+    '关于AoMe奥美互助公社': [200, 299]
+
+msc-law:
+  name: 《磁铁学生公社(MSC)临时约法》
+  title: 《磁铁学生公社(MSC)临时约法》
+  subtitle: 'Temporary Constitution of the Magnet Student Commune (MSC) | Magnet Student Commune'
+  tags: MSC磁铁学生公社
+  cover: true
+  logo:
+    src: https://msc-a.netlify.app/medias/MSC.svg
+    small: 112px
+    large: 240px
+  description: 磁铁公社是一个完全由学生所组成的多元一体的自治组织团体。其下设磁铁开发部。
+  
+mdd-law:
+  name: 《磁铁开发部(MDD)民主临时管制制度》
+  title: 《磁铁开发部(MDD)民主临时管制制度》
+  subtitle: 'Democratic Temporary Control System of Magnet Development Department (MDD)'
+  tags: MSC磁铁学生公社
+  cover: true
+  logo:
+    src: https://msc-a.netlify.app/medias/reward/wechat.png
+    small: 112px
+    large: 240px
+  description: 磁铁开发部是磁铁公社组织下的专用于项目开发的组织。
+  
+### document end#
