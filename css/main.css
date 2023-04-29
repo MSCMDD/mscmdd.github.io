@@ -3341,7 +3341,9 @@ details.toc[open] >div.body section .header+.doc_tree {
 }
 .social-wrap a.social {
   line-height: 0;
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   padding: 6px;
   border-radius: 4px;
   filter: grayscale(100%);
