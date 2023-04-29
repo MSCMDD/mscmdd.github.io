@@ -13,3 +13,77 @@ search_docs:
   filter: /document
   placeholder: 文档搜索
 
+# 最新的文档
+recent:
+  layout: recent
+  rss: /atom.xml # npm i hexo-generator-feed
+  limit: 5 # Count of posts
+
+# 相关文档组件
+related:
+  layout: related
+
+# 欢迎
+welcome:
+  layout: markdown
+  title: 欢迎达瓦里氏
+  content: |
+    #### 欢迎来到M&A互助联盟~ 
+    这是一个完全由学生所组成的联盟。
+    AoMe奥美互助公社和MSC磁铁学生公社所组成的联合公社~ 
+    我们现在十分缺少人员QwQ
+    <br>[主站点](https://aome-c.github.io/)
+    
+
+tagcloud:
+  layout: tagcloud
+  title: 标签云
+  # 标签云配置
+  min_font: 12
+  max_font: 24
+  amount: 100
+  orderby: name
+  order: 1 # 1, sac 升序；-1, desc 降序
+  color: false # 使用颜色
+  start_color:  # 开始的颜色。您可使用十六进位值（'#b700ff'），rgba（rgba(183, 0, 255, 1)），hsla（hsla(283, 100%, 50%, 1)）或 颜色关键字。此变量仅在 color 参数开启时才有用。
+  end_color:  # 结束的颜色。您可使用十六进位值（'#b700ff'），rgba（rgba(183, 0, 255, 1)），hsla（hsla(283, 100%, 50%, 1)）或 颜色关键字。此变量仅在 color 参数开启时才有用。
+  show_count: false # 显示每个标签的文章总数
+
+# github名片
+mddghuser:
+  layout: ghuser
+  username: MSCMDD # your github login usernameGithub名片
+  avatar: false # show avatar or not
+  menu: false # show menu or not
+
+aomeghuser:
+  layout: ghuser
+  username: AoMe-C # your github login usernameGithub名片
+  avatar: false # show avatar or not
+  menu: false # show menu or not
+
+# 时间线组件
+#timeline:
+#  layout: timeline
+#  title: 近期动态
+#  api: https://api.github.com/repos/xaoxuu/hexo-theme-stellar/issues # 若你想限制数量，在api链接后面加上?per_page=1指限制为1条
+#  user: # 是否过滤只显示某个人发布的内容，如果要筛选多人，用英文逗号隔开
+#  hide: # title,footer # 隐藏标题或底部 # 此功能需要 Stellar v1.13.0
+
+comest:
+  layout: markdown
+  title: '本站划水榜'
+  content: |
+      <div id="waline-users"><i class="fa fa-cog fa-spin"></i>连接waline数据中...</div>
+      <script type="module">
+      import { UserList } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+      UserList({
+        el: '#waline-users',
+        serverURL: 'https://msc-a.dynv6.net:8365',
+        count: 5,
+      });
+      </script>
+      <style>#waline-users > ul > li > a{display: flex;overflow: hidden;-webkit-box-orient: vertical;}
+      #waline-users > ul > li > a > div.wl-user-meta{font-size:14px;color: #999;}
+      #waline-users > ul > li > a > div.wl-user-meta > div{color: var(--swiper-theme-color);}
+      </style>

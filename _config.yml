@@ -96,6 +96,7 @@ markdown:
     - markdown-it-ins
     - markdown-it-sub
     - markdown-it-sup
+    - markdown-it-ruby
   anchors:
     level: 2
     collisionSuffix: 'v'
@@ -170,3 +171,13 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+spoiler:
+  style: blur # 或者box
+  color: black # 仅当 style 为 box 时起效
+  p: false # 没懂啥意思，不管它
+
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
