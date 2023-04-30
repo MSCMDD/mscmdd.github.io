@@ -14,6 +14,6 @@ poster:
   caption: 作者：周﹡勋
   color: white
 ---
-![zhou-01.jpg](zhou-01.jpg)
-![zhou-01.jpg](zhou-02.jpg)
-![zhou-01.jpg](zhou-03.jpg)
+![光学显微镜图像-1](https://msc-a.giize.com/res/zhou-1/zhou-01.jpg)
+![光学显微镜图像-2](https://msc-a.giize.com/res/zhou-1/zhou-02.jpg)
+![光学显微镜图像-3](https://msc-a.giize.com/res/zhou-1/zhou-03.jpg)
