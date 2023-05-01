@@ -11,6 +11,8 @@ order: 100
 磁铁公社是一个完全由学生所组成的多元一体的自治组织团体。其下设磁铁开发部。
 https://mscmdd.github.io/
 
+创始人为周齐勋同志，[职位分配表](https://mscmdd.github.io/bulletin/)
+
 我们需要文案
 
 磁铁学生公社 (MSC)

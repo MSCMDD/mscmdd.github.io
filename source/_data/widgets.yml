@@ -87,3 +87,9 @@ comest:
       #waline-users > ul > li > a > div.wl-user-meta{font-size:14px;color: #999;}
       #waline-users > ul > li > a > div.wl-user-meta > div{color: var(--swiper-theme-color);}
       </style>
+
+policy:
+  layout: markdown
+  title: 欢迎达瓦里氏
+  content: |
+    人员流动政策：
