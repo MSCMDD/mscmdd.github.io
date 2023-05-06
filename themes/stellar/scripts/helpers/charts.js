@@ -370,7 +370,7 @@ function tagsChart (len) {
 function categoriesChart () {
   const categoryArr = []
   hexo.locals.get('categories').map(function (category) {
-    categoryArr.push({ name: category.name, value: category.length })
+    categoryArr.push({ name: category.name, value: category.length, path: category.path })
   })
   categoryArr.sort((a, b) => { return b.value - a.value });
   const categoryArrJson = JSON.stringify(categoryArr)
@@ -400,7 +400,7 @@ function categoriesChart () {
         trigger: 'item',
         formatter: "{a} <br/>{b} : {c} ({d}%)"
       },
-	  color: ['#DC143C', '#8B4513', '#A0522D','	#FF4500','#FF0000','#8B0000','#1E90FF','#DCDCDC'],
+	  color: ['#DC143C', '#8B4513', '#A0522D','#FF4500','#FF0000','#8B0000','#1E90FF','#DCDCDC'],
       series: [{
         name: '文章篇数',
         type: 'pie',
@@ -422,6 +422,9 @@ function categoriesChart () {
     categoriesChart.setOption(categoriesOption);
     window.addEventListener("resize", () => { 
       categoriesChart.resize();
+    });
+	categoriesChart.on('click', 'series', (event) => {
+      if(event.data.path) window.location.href = '/' + event.data.path;
     });
     </script>`
 }
