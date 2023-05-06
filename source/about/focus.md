@@ -1,6 +1,6 @@
 ---
 title: MSC磁铁学生公社 焦点树
-menu_id: 'post'
+menu_id: about
 sidebar:
   - comest
   - search_blog

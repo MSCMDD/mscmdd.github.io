@@ -1,6 +1,6 @@
 ---
 title: 关于我们
-menu_id: 'post'
+menu_id: about
 sidebar:
   - comest
   - search_blog
