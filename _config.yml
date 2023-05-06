@@ -6,7 +6,7 @@
 title: M&A互助联盟
 avatar: /medias/avatar.svg
 favicon: https://msc-a.netlify.app/medias/logo.svg
-subtitle: 'Magnet Student Commune | AoMe Mutual Aid Commune'
+subtitle: 'Magnet Students Commune | AoMe Mutual Aid Commune'
 description: ''
 keywords:
 author: AoMe&MSC联合编辑部
@@ -158,6 +158,7 @@ inject:
     - <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" media="all" onload="this.media='all'" />
     - <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="all" onload="this.media='all'" />
     - <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    - <link rel="stylesheet" href="/css/mycss.css">
 # Extensions
 plugins:
   hexo-generator-feed
