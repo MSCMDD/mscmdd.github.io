@@ -19,7 +19,7 @@ sidebar:
     avatar: '[config.avatar](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
-     about: '[<i class="fa fa-university"></i>](/about/)'
+     about: '[<i class="fa fa-institution"></i>](/about/)'
      post: '[<i class="fa fa-align-left"></i>文章](/)'
      wiki: '[<i class="fa fa-newspaper-o"></i>档案](/document/)'
      bulletin: '[<i class="fa fa-object-group"></i>公示板](/bulletin/)'
@@ -190,6 +190,9 @@ footer:
      github:
        icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/08a41b181ce68.svg"/>'
        url: https://github.com/MSCMDD
+     email: 
+       icon: '<i class="fa fa-envelope-o"></i>'
+       url: mailto:MSCAoMe@outlook.com
      rss:
        icon: '<i class="fa fa-rss"></i>'
        url: /atom.xml
