@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d780e953f591a9d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "竣-论公社庆祝胜利日原因.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,6 +77,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "80721d646c74ef97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zhou-1.md",
+                "file": "竣-论公社庆祝胜利日原因.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zhou-1.md",
+                "file": "竣-论公社庆祝胜利日原因.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zhou-1.md"
+                "file": "竣-论公社庆祝胜利日原因.md"
+              }
+            }
+          },
+          {
+            "id": "bf720bf994d1a1a4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
               }
             }
           }
@@ -146,8 +177,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cc127e9ac89fa95c",
+  "active": "d780e953f591a9d2",
   "lastOpenFiles": [
+    "论磁铁公社之性质.md",
+    "竣-论公社庆祝胜利日原因.md",
+    "我们为何发展公社.md",
+    "浅谈关于公社生死存亡问题及更好发展问题的联系.md",
+    "浅论磁铁公社十大关系.md",
+    "论公社五一劳动节活动一事.md",
+    "计算机-1.md",
+    "二高分部临时会议.md",
+    "对于磁铁公社近期矛盾的看法.md",
+    "团结就是李一亮~.md",
+    "生活.md",
+    "向“改革开放”学习.md",
     "new.md",
     "zhou-1/zhou-03.jpg",
     "zhou-1/zhou-01.jpg",
@@ -159,13 +202,6 @@
     "图片地址.md",
     "hello-world.md",
     "1c9a556d/zhou-03.jpg",
-    "1c9a556d/zhou-02.jpg",
-    "生活.md",
-    "浅谈关于公社生死存亡问题及更好发展问题的联系.md",
-    "计算机-1.md",
-    "二高分部临时会议.md",
-    "对于磁铁公社近期矛盾的看法.md",
-    "团结就是李一亮~.md",
-    "浅论磁铁公社十大关系.md"
+    "1c9a556d/zhou-02.jpg"
   ]
 }
