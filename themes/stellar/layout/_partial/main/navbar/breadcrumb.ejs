@@ -37,7 +37,7 @@ function layoutDiv() {
     // 发布日期
     el += '<div id="post-meta">';
     el += __("meta.created") + '&nbsp;<time datetime="' + date_xml(page.date) + '">' + date(page.date, config.date_format) + '</time>' + ("&nbsp;&nbsp;作者：") + (page.author);
-    el += '&nbsp;&nbsp;&nbsp;<span id="busuanzi_container_page_pv">本文总阅读量：<span id="busuanzi_value_page_pv"></span>次</span>';
+    el += '&nbsp;&nbsp;&nbsp;本文总阅读量：<span id="busuanzi_value_page_pv"></span>次';
     el += '</div>';
     el += '</div>';
   } else if (page.layout === "wiki" && page.wiki && page.wiki.length > 0) {
