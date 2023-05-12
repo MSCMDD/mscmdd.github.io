@@ -210,7 +210,7 @@ footer:
        icon: '<i class="fa fa-file-text-o"></i>'
        url: https://qexo.giize.com/
   sitemap:
-     '博客':
+     '文章':
        - '[近期](/)'
        - '[分类](/categories/)'
        - '[标签](/tags/)'
@@ -220,6 +220,7 @@ footer:
      '社交':
        - '[公告](/bulletin/)'
        - '[留言板](/contact/#comments)'
+       - '[友情链接](/friends)'
      '更多':
        - '[关于副站](/about/)'
        - '[前往主站](https://aome-c.github.io/)'
