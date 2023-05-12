@@ -22,6 +22,7 @@ AoMe奥美互助公社综合交流群及项目开发群：637059474
 [点击链接加入群聊【AoMe奥美互助公社】](https://qm.qq.com/cgi-bin/qm/qr?k=shjQh0mRBRidgHsq-PVamzyLEDBKaeSj&jump_from=webapi&authKey=YL3iDXkmH6nQhIVgpA0JxiNR3aK5RzjqUfzQPPcA/Uikz500YgRmMYK7eKW8xIO+)
 
 此网站无经营性项目，无盈利 
+
 ## [MSC磁铁学生公社 焦点树](focus)
 
 <table border="15" width="220px" style="font-size: 20px; color: blue;">
@@ -48,6 +49,9 @@ function switchPostChart () {
 </script>
 <!-- 文章分类统计图 -->
 <div id="categories-chart"  style="border-radius: 8px; height: 300px; padding: 10px;"></div>
+
+### 建交（友情链接）
+{% friends api:https://cdn.jsdelivr.net/gh/MSCMDD/friends@output/v2/data.json %}
 
 ### 关于磁铁学生公社(MSC)
 磁铁学生公社是一个由学生自发组织、完全自治的学生组织团体。该团体旨在为学生提供自主创新、交流与实践的平台，促进同学们之间的相互学习和交流。
