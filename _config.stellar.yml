@@ -206,6 +206,9 @@ footer:
      comments:
        icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/942ebbf1a4b91.svg"/>'
        url: /contact/#comments
+     writing:
+       icon: '<i class="fa fa-file-text-o"></i>'
+       url: https://qexo.giize.com/
   sitemap:
      '博客':
        - '[近期](/)'
