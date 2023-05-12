@@ -136,7 +136,8 @@ comments:
     js: https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.js
     css: https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.css
     # Waline server address url, you should set this to your own link
-    serverURL: https://msc-a.dynv6.net:8365
+    serverURL: https://aome.giize.com
+    # 原服务端：https://msc-a.dynv6.net:8365
     # If false, comment count will only be displayed in post page, not in home page
     commentCount: true
     # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`.
