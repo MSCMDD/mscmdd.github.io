@@ -1,6 +1,7 @@
 ---
 title: 关于我们
 menu_id: about
+indent: true
 sidebar:
   - comest
   - search_blog
@@ -51,7 +52,7 @@ function switchPostChart () {
 <div id="categories-chart"  style="border-radius: 8px; height: 300px; padding: 10px;"></div>
 
 ### 建交（友情链接）
-{% friends api:https://cdn.jsdelivr.net/gh/MSCMDD/friends@output/v2/data.json %}
+{% friends api:https://raw.gitmirror.com/MSCMDD/friends/output/v2/data.json %}
 
 ### 关于磁铁学生公社(MSC)
 磁铁学生公社是一个由学生自发组织、完全自治的学生组织团体。该团体旨在为学生提供自主创新、交流与实践的平台，促进同学们之间的相互学习和交流。

@@ -23,6 +23,9 @@ sidebar:
      post: '[<i class="fa fa-align-left"></i>文章](/)'
      wiki: '[<i class="fa fa-newspaper-o"></i>档案](/document/)'
      bulletin: '[<i class="fa fa-object-group"></i>公示板](/bulletin/)'
+     comments: '[<i class="	fa fa-comments-o"></i>留言](/contact/#comments/)'
+     friends: '[-|<i class="fa fa-handshake-o"></i>友情链接|-](/friends/)'
+     write: '[<i class="fa fa-file-text-o"></i>编辑](https://qexo.giize.com/)'
   # Sidebar widgets
   widgets:
     #### 自动生成的页面 ####
