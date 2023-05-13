@@ -143,6 +143,12 @@
   if ('<%- theme.plugins.heti.enable %>' == 'true') {
     stellar.plugins.heti = Object.assign(<%- JSON.stringify(theme.plugins.heti) %>);
   }
+  // -------- start 自定义首页文章轮播
+  if ('<%- theme.customSwiperTopArticle.enable %>' == 'true') {
+    stellar.plugins.customSwiperTopArticle = Object.assign(<%- JSON.stringify(theme.customSwiperTopArticle) %>);
+  }
+  // -------- end 自定义首页文章轮播
+
 </script>
 
 <!-- required -->

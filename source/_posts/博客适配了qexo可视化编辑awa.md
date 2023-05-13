@@ -1,12 +1,12 @@
 ---
+pin: true
 abbrlink: '1'
 author: Ленинград
+swiper_thumbnail: https://unpkg.com/qexo-static@1.4.0/assets/img/brand/favicon.ico
+# https://acgapi.shifeiti.com/api/
 indent: true
-categories: []
-date: '2023-05-11T22:18:21.340350+08:00'
-tags: []
 title: 博客适配了qexo可视化编辑awa
-updated: 2023-5-11T22:23:47.125+8:0
+date: 2023-03-25 17:25:00
 ---
 ## 博客适配了qexo可视化编辑awa
 

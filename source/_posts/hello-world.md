@@ -1,4 +1,6 @@
 ---
+pin: true
+swiper_thumbnail: https://pic2.zhimg.com/v2-f9654b817205f6af3e472af284ecc2b2_1200x500.jpg
 title: Hello World
 author: AoMe奥美互助公社
 tags:
