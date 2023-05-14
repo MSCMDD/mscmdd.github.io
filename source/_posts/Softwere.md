@@ -4,6 +4,8 @@ author: M&A联合编辑部
 categories: []
 date: '2017-05-14T12:22:45.663913+08:00'
 excerpt: 磁铁学生公社资源区  AoMe奥美互助公社资源区 ......
+pin: true
+swiper_thumbnail: https://acgapi.shifeiti.com/api/
 tags: []
 title: MSC & AoMe公用资源站
 updated: 2023-5-14T12:34:52.623+8:0
