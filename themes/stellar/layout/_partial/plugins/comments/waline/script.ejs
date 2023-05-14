@@ -62,7 +62,7 @@ const locale = {
       }
       Waline.init(Object.assign(<%- JSON.stringify(theme.comments.waline) %>, {
         el: '#waline_container',
-        path: location.pathname,
+        path: path,
 		lang: 'zh-CN',
 		reaction: true,
 		locale,
