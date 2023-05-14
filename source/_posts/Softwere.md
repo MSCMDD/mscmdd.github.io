@@ -1,11 +1,12 @@
 ---
-abbrlink: ''
+abbrlink: Res
 author: M&A联合编辑部
 categories: []
-date: '2023-05-14T12:22:45.663913+08:00'
+date: '2017-05-14T12:22:45.663913+08:00'
+excerpt: 磁铁学生公社资源区  AoMe奥美互助公社资源区 ......
 tags: []
-title: title
-updated: 2023-5-14T12:29:10.833+8:0
+title: MSC & AoMe公用资源站
+updated: 2023-5-14T12:34:52.623+8:0
 ---
 ## 磁铁学生公社资源区
 
