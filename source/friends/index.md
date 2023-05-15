@@ -1,6 +1,7 @@
 ---
 title: 友情链接
 date: 2023-04-21 12:15:54
+menu_id: friends
 ---
 {% friends api:https://raw.gitmirror.com/MSCMDD/friends/output/v2/data.json %}
 <div id="qexo-friends"></div>

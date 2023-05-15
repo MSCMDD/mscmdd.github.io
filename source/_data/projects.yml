@@ -26,7 +26,7 @@ msc-law:
     small: 112px
     large: 240px
   description: 磁铁公社是一个完全由学生所组成的多元一体的自治组织团体。其下设磁铁开发部。
-  
+
 mdd-law:
   name: 《磁铁开发部(MDD)民主临时管制制度》
   title: 《磁铁开发部(MDD)民主临时管制制度》
@@ -38,5 +38,30 @@ mdd-law:
     small: 112px
     large: 240px
   description: 磁铁开发部是磁铁公社组织下的专用于项目开发的组织。
-  
+
+Army:
+  name: 磁铁学生公社军务部
+  title: 磁铁学生公社军务部
+  subtitle: '一个活跃于军武类游戏的游戏公会 | 魔怔壬聚集地（bushi'
+  cover: true
+  logo:
+    src: https://msc-a.netlify.app/medias/MSC.svg
+  description: 一个活跃于军武类游戏的游戏公会
+  sections:
+    '关于': [0, 1]
+    '海军': [1, 99]
+    '陆军': [100, 199]
+    '空军': [200, 299]
+
+res:
+  name: MSC&AoMe公用资源区
+  title: MSC&AoMe公用资源区
+  subtitle: '磁铁学生公社资源区'
+  cover: true
+  logo:
+    src: https://acgapi.shifeiti.com/api/
+    small: 112px
+    large: 240px
+  description: 磁铁学生公社资源区和AoMe奥美互助公社资源区。
+
 ### document end#

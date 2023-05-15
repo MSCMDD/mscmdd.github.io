@@ -26,6 +26,8 @@ sidebar:
      comments: '[<i class="	fa fa-comments-o"></i>留言](/contact/#comments/)'
      friends: '[-|<i class="fa fa-handshake-o"></i>友情链接|-](/friends/)'
      write: '[<i class="fa fa-file-text-o"></i>编辑](https://qexo.giize.com/)'
+     Resource: '[<i class="fa fa-file-text-o"></i>资源区](/res/)'
+     Army: '[<i class="fa fa-file-text-o"></i>军务部](/army/)'
   # Sidebar widgets
   widgets:
     #### 自动生成的页面 ####
@@ -44,6 +46,7 @@ sidebar:
     wiki: search, ghrepo, toc, ghissues, related # for pages using 'layout:wiki'
     # 其它 layout:page 的页面
     page: toc, search # for custom pages using 'layout:page'
+    # 资源
 
 ######## Index ########
 post-index: # 近期发布 分类 标签 归档 and ...
