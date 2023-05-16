@@ -45,7 +45,7 @@ Army:
   subtitle: '一个活跃于军武类游戏的游戏公会 | 魔怔壬聚集地（bushi'
   cover: true
   logo:
-    src: https://msc-a.netlify.app/medias/MSC.svg
+    src: http://www.fakutownee.cn/d/file/p/2019-10-16/683bdcbd0406e81b999ae6863de96f3a.jpg
   description: 一个活跃于军武类游戏的游戏公会
   sections:
     '关于': [0, 1]
