@@ -39,19 +39,21 @@ mdd-law:
     large: 240px
   description: 磁铁开发部是磁铁公社组织下的专用于项目开发的组织。
 
-Army:
-  name: 磁铁学生公社军务部
-  title: 磁铁学生公社军务部
-  subtitle: '一个活跃于军武类游戏的游戏公会 | 魔怔壬聚集地（bushi'
+Games:
+  name: M&A互助联盟游戏区
+  title: 公社の妙妙屋
+  subtitle: '一个活跃的游戏公会 | 魔怔壬聚集地（bushi'
   cover: true
   logo:
-    src: http://www.fakutownee.cn/d/file/p/2019-10-16/683bdcbd0406e81b999ae6863de96f3a.jpg
-  description: 一个活跃于军武类游戏的游戏公会
+    src: https://www.ali213.net/picfile/News/2009/12/09/mowrtcn_03.jpg
+    small: 120px
+    large: 240px
+  description: 一个活跃的游戏公会
   sections:
     '关于': [0, 1]
-    '海军': [1, 99]
-    '陆军': [100, 199]
-    '空军': [200, 299]
+    '军武类': [1, 99]
+    '像素': [100, 199]
+    '其他': [200, 299]
 
 res:
   name: MSC&AoMe公用资源区

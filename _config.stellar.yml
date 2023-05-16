@@ -27,7 +27,7 @@ sidebar:
      friends: '[-|<i class="fa fa-handshake-o"></i>友情链接|-](/friends/)'
      write: '[<i class="fa fa-file-text-o"></i>编辑](https://qexo.giize.com/)'
      Resource: '[<i class="fa fa-folder-open-o"></i>资源区](/res/)'
-     Army: '[<i class="fa fa-flag-checkered"></i>军务部](/army/)'
+     Games: '[<i class="fa fa-gift"></i>妙妙屋](/games/)'
   # Sidebar widgets
   widgets:
     #### 自动生成的页面 ####
