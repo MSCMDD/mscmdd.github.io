@@ -3,6 +3,7 @@ layout: wiki  # 使用wiki布局模板
 wiki: aboutam # 这是项目名
 title: 关于磁铁开发部
 order: 101
+comment_id: /about/msc/
 ---
 ## 关于磁铁开发部
 <img src="https://msc-a.netlify.app/medias/reward/wechat.png" width=256 height=256 />

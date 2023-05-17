@@ -3,6 +3,7 @@ layout: wiki  # 使用wiki布局模板
 wiki: aboutam # 这是项目名
 title: 关于MSC&AoMe联合编辑部
 order: 0
+comment_id: /about/
 ---
 ## 关于MSC&AoMe联合编辑部
 ##### 2023 年 4 月 18日

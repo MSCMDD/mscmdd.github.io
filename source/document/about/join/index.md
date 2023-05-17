@@ -3,6 +3,7 @@ layout: wiki  # 使用wiki布局模板
 wiki: aboutam # 这是项目名
 title: 加入我们
 order: 1
+comment_id: /about/
 ---
 ## 加入MSC磁铁学生公社
 磁铁公社是一个完全由学生所组成的多元一体的自治组织团体。其下设磁铁开发部。

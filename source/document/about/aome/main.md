@@ -3,6 +3,7 @@ layout: wiki  # 使用wiki布局模板
 wiki: aboutam # 这是项目名
 title: 关于AoMe奥美互助公社
 order: 200
+comment_id: /about/aome/
 ---
 ## 关于AoMe奥美互助公社
 <img src="https://msc-a.netlify.app/medias/aome.svg" width=256 height=256 />

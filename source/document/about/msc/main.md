@@ -3,6 +3,7 @@ layout: wiki  # 使用wiki布局模板
 wiki: aboutam # 这是项目名
 title: 关于MSC磁铁学生公社
 order: 100
+comment_id: /about/msc/
 ---
 ## 关于MSC磁铁学生公社
 <img src="https://msc-a.netlify.app/medias/MSC.svg" width=256 height=256 />
