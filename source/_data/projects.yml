@@ -60,10 +60,15 @@ res:
   title: MSC&AoMe公用资源区
   subtitle: '磁铁学生公社资源区'
   cover: true
+  tags: 关于联盟
   logo:
     src: https://acgapi.shifeiti.com/api/
     small: 112px
     large: 240px
   description: 磁铁学生公社资源区和AoMe奥美互助公社资源区。
+  sections:
+    'AoMe奥美互助公社资源区': [0, 300]
+    'MSC磁铁学生公社资源区': [301, 600]
+    '其他': [601, 900]
 
 ### document end#

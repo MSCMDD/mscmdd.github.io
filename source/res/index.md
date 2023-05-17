@@ -2,6 +2,7 @@
 layout: wiki
 wiki: res
 title: AoMe奥美互助公社资源区
+order: 1
 ---
 {% image /medias/aome.svg AoMe奥美互助公社徽标 width:200px padding:16px %}
 ## AoMe奥美互助公社资源区
