@@ -24,3 +24,4 @@ order: 2
 
 #### 图片
 ![磁铁海军](https://cdn.jsdelivr.net/gh/MSCMDD/PicGoCDN/img/ptb.png)
+![手绘](https://cdn.jsdelivr.net/gh/MSCMDD/PicGoCDN/img/ptb-1.jpg)
