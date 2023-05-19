@@ -402,7 +402,7 @@ plugins:
     # js: https://unpkg.com/mermaid@9.0.0/dist/mermaid.min.js
     js: https://cdn.bootcdn.net/ajax/libs/mermaid/9.4.3/mermaid.min.js
     # Available themes: default | dark | forest | neutral
-    # 推荐使用 dark 主题 在夜间模式下显示效果更好的说
+    # 推荐使用 dark 主题 在夜间模式下显示效果更好的说测试
     theme: dark
 
 style:
