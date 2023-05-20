@@ -26,11 +26,7 @@ AoMe奥美互助公社综合交流群及项目开发群：637059474
 
 ## [MSC磁铁学生公社 焦点树](focus)
 
-<table border="15" width="220px" style="font-size: 20px; color: blue;">
-    <tr onclick="location.href='./focus';">
-        <td width="220px">选择一个焦点</td>
-    </tr>
-</table>
+<button class="bttn-unite bttn-lg bttn-primary" onclick="location.href='./focus'">选择一个焦点</button>
 
 ~~钢铁雄心4玩多了（bushi~~
 

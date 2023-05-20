@@ -62,3 +62,4 @@ cond(no)->sub1(left)->op1
 c2(yes)->io->e
 c2(no)->op2->e
 ```
+<button class="bttn-slant bttn-md bttn-primary">medium</button>

@@ -12,7 +12,8 @@ layout: "wiki"
 comment_id: /about/
 date: 2023-04-21 12:14:08
 ---
-## [返回](index)
+# <button class="bttn-slant bttn-lg bttn-primary" onclick="location.href='index'">返回</button>
+
 
 <audio id="audio" src="r01.wav"></audio>
 <script type="text/javascript">
