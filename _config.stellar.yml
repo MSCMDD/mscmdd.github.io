@@ -312,13 +312,13 @@ plugins:
 
   # stellar api
   stellar:
-    sites: /js/plugins/sites.js
-    friends: /js/plugins/friends.js
-    ghinfo: /js/plugins/ghinfo.js
-    timeline: /js/plugins/timeline.js
-    linkcard: /js/plugins/linkcard.js
-    fcircle: /js/plugins/fcircle.js
-    weibo: /js/plugins/weibo.js
+    sites: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/main.js
+    friends: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/friends.js
+    ghinfo: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/ghinfo.js
+    timeline: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/timeline.js
+    linkcard: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/linkcard.js
+    fcircle: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/fcircle.js
+    weibo: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/weibo.js
 
   marked: https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js
 
