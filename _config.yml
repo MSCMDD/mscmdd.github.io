@@ -18,7 +18,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://mscmdd.github.io/
+url: https://msc-a.giize.com
 permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -238,7 +238,7 @@ hexo_submit_urls_to_search_engine:
   bing: 1 # 是否向bing提交（0：否；1：是）
   baidu: 1 # 是否向baidu提交（0：否；1：是）
   txt_path: submit_urls.txt ## 文本文档名， 需要推送的链接会保存在此文本文档里
-  baidu_host: https://mscmdd.github.io ## 在百度站长平台中注册的域名
+  baidu_host: https://msc-a.giize.com ## 在百度站长平台中注册的域名
   baidu_token: ubswQdGXPjwkK4la  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
   bing_host: https://mscmdd.github.io ## 在bing站长平台中注册的域名
   bing_token: 659bdf544c5446dfa183f1deef99c668  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
@@ -248,3 +248,9 @@ hexo_submit_urls_to_search_engine:
   replace: 0  # 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）
   find_what: 
   replace_with:
+
+baidu_url_submit:
+  count: 3 ## 比如3，代表提交最新的三个链接
+  host: https://msc-a.giize.com ## 在百度站长平台中注册的域名
+  token: ubswQdGXPjwkK4la ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
