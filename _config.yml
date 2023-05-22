@@ -8,13 +8,13 @@ avatar: /medias/avatar.svg
 favicon: https://msc-a.netlify.app/medias/logo.svg
 subtitle: 'Magnet Students Commune | AoMe Mutual Aid Commune'
 description: ''
-keywords:
+keywords: "学生, MSC, 磁铁学生公社, AoMe, AoMe奥美互助公社, 奥美互助公社, 互助公社, CTXD, 磁铁兄弟联盟"
 author: AoMe&MSC联合编辑部
 language:
   - zh-CN
   - en
   - zh-TW
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -215,3 +215,35 @@ flowchart:
   # raphael:   # optional, the source url of raphael.js
   # flowchart: # optional, the source url of flowchart.js
   options: # options used for `drawSVG`
+
+sitemap:
+    path: sitemap.xml
+    tag: false
+    category: false
+
+nofollow:
+  enable: true  #true/false 启用/关闭插件
+  field: site   #site/post  处理全站/仅文章链接
+  exclude:      #排除域名，同的子域名视为不同的域名
+    - 'exclude1.com'
+    - 'exclude2.com'
+
+# auto-push-urls-to-search-engine
+hexo_submit_urls_to_search_engine:
+  submit_condition: count #链接被提交的条件，可选值：count | period 现仅支持count
+  count: 100 # 提交最新的链接个数
+  period: 1000 # 提交修改时间在 1000 秒内的链接
+  google: 0 # 是否向Google提交（0：否；1：是）
+  bing: 1 # 是否向bing提交（0：否；1：是）
+  baidu: 1 # 是否向baidu提交（0：否；1：是）
+  txt_path: submit_urls.txt ## 文本文档名， 需要推送的链接会保存在此文本文档里
+  baidu_host: https://mscmdd.github.io ## 在百度站长平台中注册的域名
+  baidu_token: xxxxxxxxxxx  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
+  bing_host: https://mscmdd.github.io ## 在bing站长平台中注册的域名
+  bing_token: 659bdf544c5446dfa183f1deef99c668  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
+  google_host: https://mscmdd.github.io ## 在google站长平台中注册的域名
+  google_proxy: 0 # 向谷歌提交网址所使用的系统 http 代理，填 0 不使用，以Clash为例
+  google_key_file: genial-xxxxxx-xxxxxx-xxxxxxxxx.json #Google服务项目的json文件名全称，放于网站根目录（与hexo _config.yml文件位置相同），请不要把json文件内容直接发布在公众仓库里!
+  replace: 0  # 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）
+  find_what: 
+  replace_with:
