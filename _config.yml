@@ -239,7 +239,7 @@ hexo_submit_urls_to_search_engine:
   baidu: 1 # 是否向baidu提交（0：否；1：是）
   txt_path: submit_urls.txt ## 文本文档名， 需要推送的链接会保存在此文本文档里
   baidu_host: https://mscmdd.github.io ## 在百度站长平台中注册的域名
-  baidu_token: xxxxxxxxxxx  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
+  baidu_token: ubswQdGXPjwkK4la  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
   bing_host: https://mscmdd.github.io ## 在bing站长平台中注册的域名
   bing_token: 659bdf544c5446dfa183f1deef99c668  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
   google_host: https://mscmdd.github.io ## 在google站长平台中注册的域名
