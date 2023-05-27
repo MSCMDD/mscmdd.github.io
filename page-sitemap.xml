@@ -11,7 +11,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/res/MSCRes.html</loc>
-        <lastmod>2023-05-27T06:31:24.119Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.256Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -20,7 +20,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/res/</loc>
-        <lastmod>2023-05-27T06:31:24.119Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.256Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -29,34 +29,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/res/MSCRES/Study.html</loc>
-        <lastmod>2023-05-27T06:31:24.119Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://msc-a.giize.com/bulletin/</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://msc-a.giize.com/contact/</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://msc-a.giize.com/document/</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.256Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -65,7 +38,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/friends/</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -74,7 +47,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/games/</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -83,7 +56,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/games/minecraftserver.html</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -92,7 +65,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/games/navy.html</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -101,7 +74,34 @@
     
     <url>
         <loc>https://msc-a.giize.com/games/wotb.html</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.236Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://msc-a.giize.com/bulletin/</loc>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://msc-a.giize.com/contact/</loc>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://msc-a.giize.com/document/</loc>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -110,7 +110,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/document/about/</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -119,7 +119,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/document/about/aome/main.html</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -128,7 +128,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/document/about/join/</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -137,7 +137,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/document/about/msc/main.html</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -146,7 +146,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/document/about/msc/mdd.html</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -155,7 +155,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/document/msc/law/MDD-Temporary.html</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -164,7 +164,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/document/msc/law/Temporary.html</loc>
-        <lastmod>2023-05-27T06:31:24.103Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -173,7 +173,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/about/focus.html</loc>
-        <lastmod>2023-05-27T06:31:24.099Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.228Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -182,7 +182,7 @@
     
     <url>
         <loc>https://msc-a.giize.com/about/</loc>
-        <lastmod>2023-05-27T06:31:24.099Z</lastmod>
+        <lastmod>2023-05-27T06:35:04.228Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
