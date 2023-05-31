@@ -78,6 +78,16 @@ article:
     enable: true
     max_count: 5
 
+# AI 摘要
+TianliGpt:
+  post: false
+  wiki: false
+  api: 5Q5mpqRK5DkwT1X9Gi5e
+
+CodeBlock:
+  show_copy: true
+  default_text: 'copy'
+  success_text: 'copied'
 
 # 文章搜索
 search:
