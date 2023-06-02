@@ -149,8 +149,8 @@ comments:
   # Waline
   # https://waline.js.org/
   waline:
-    js: https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.js
-    css: https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.css
+    js: https://cdnjs.cloudflare.com/ajax/libs/waline/2.15.5-alpha.0/waline.min.js
+    css: https://cdnjs.cloudflare.com/ajax/libs/waline/2.15.5-alpha.0/waline.min.css
     # Waline server address url, you should set this to your own link
     serverURL: https://aome.giize.com
     # 原服务端：https://msc-a.dynv6.net:8365
