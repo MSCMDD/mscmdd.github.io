@@ -1,19 +1,19 @@
 ---
-title: MSC磁铁学生公社 焦点树
-menu_id: about
-sidebar:
-  - comest
-  - search_blog
-  - aomeghuser
-  - mddghuser
-  - toc
-mermaid: true
-layout: "wiki"
 comment_id: /about/
-date: 2023-04-21 12:14:08
+date: '2023-04-21T12:14:08+08:00'
+layout: wiki
+menu_id: about
+mermaid: true
+sidebar:
+- comest
+- search_blog
+- aomeghuser
+- mddghuser
+- toc
+title: MSC磁铁学生公社 焦点树
+updated: 2023-6-6T16:43:40.119+8:0
 ---
 # <button class="bttn-slant bttn-lg bttn-primary" onclick="location.href='index'">返回</button>
-
 
 <audio id="audio" src="r01.wav"></audio>
 <script type="text/javascript">
@@ -22,7 +22,7 @@ function play(){
 }
 </script>
 <div style="height: 600px;overflow:auto;white-space: nowrap;" >
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1973141814&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=423406345&auto=1&height=32"></iframe>
 <div style="width: 2000px" onclick="play();">
 ```mermaid
 graph TD;
@@ -101,3 +101,4 @@ VIP会员制-->游戏仓库;
 磁铁开发部机构化-->时代前进!;
 ```
 </div></div>
+
