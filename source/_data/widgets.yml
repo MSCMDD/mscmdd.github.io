@@ -78,7 +78,7 @@ comest:
       import { UserList } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
       UserList({
         el: '#waline-users',
-        serverURL: 'https://msc-a.dynv6.net:8365',
+        serverURL: 'https://aome.giize.com',
         count: 5,
       });
       </script>
