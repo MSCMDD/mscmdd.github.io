@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Minecraft服务器的共产主义尝试</title>
+      <link href="/posts/9e7ed75/"/>
+      <url>/posts/9e7ed75/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><h1>Minecraft服务器的共产主义尝试</h1><p>不知不觉中，我整个假期都在维护服务器，以下是对服务器共产主义尝试的总结。</p><p>游玩服务器的玩家们在本文被称为<code>“社员”</code></p><p>类别：<code>小型虚拟社会实验</code></p><p>主题：<code>在生产力足够的条件下能否实现共产主义</code></p><p>实验状态：<code>**进行中**</code></p><p>graph LR<br>A[服务器] --&gt; B[M-A互助公社–新存档]<br>A --&gt; C[新和谐公社–旧存档]</p><table><thead><tr><th></th><th>主题成功实验</th><th>民主决策</th><th>公有化</th></tr></thead><tbody><tr><td>M&amp;A互助公社</td><td>无</td><td>有</td><td>未实现</td></tr><tr><td>新和谐公社</td><td>有</td><td>有</td><td>已实现</td></tr></tbody></table><h2 id="前期"><a class="header-anchor" href="#前期">#</a>前期</h2><h3 id="日最高人数：4人"><a class="header-anchor" href="#日最高人数：4人">#</a>日最高人数：4人</h3><h3 id="插件"><a class="header-anchor" href="#插件">#</a>插件</h3><ul><li>Geyser-Spigot（java-基岩互通插件）</li></ul><h3 id="特征"><a class="header-anchor" href="#特征">#</a>特征</h3><ul><li>完全的共产主义分配原则，共同发展、共同分享、资源共有，公社互助原则意识浓厚。</li><li>不稳定的服务端</li><li>几乎完全纯净</li></ul><h3 id="点评"><a class="header-anchor" href="#点评">#</a>点评</h3><p><em>开了个好头。</em></p><h2 id="中期"><a class="header-anchor" href="#中期">#</a>中期</h2><h3 id="日最高人数：21人"><a class="header-anchor" href="#日最高人数：21人">#</a>日最高人数：21人</h3><h3 id="插件-v2"><a class="header-anchor" href="#插件-v2">#</a>插件</h3><ul><li>nLogin</li><li>SkinsRestorer</li><li>ebackup</li><li>Geyser-Spigot</li></ul><h3 id="特征-v2"><a class="header-anchor" href="#特征-v2">#</a>特征</h3><ul><li>成体系的民主决策</li><li>公社互助原则</li><li>共产主义意识浓厚（共产主义标语林立，资源完全共享，共同发展，共同建设）</li><li>建筑公有化（公有建筑林立）</li></ul><h3 id="点评-v2"><a class="header-anchor" href="#点评-v2">#</a>点评</h3><p>这一时期是服务器的鼎盛时期，是人数最多的时期，这一时期也解决了服务器容易崩端的问题，不少服务器老玩家都曾高度评价这一时期。因为资源共享，互帮互助的人文环境，这一时期的新人存留的概率特别高（一上线就被欢迎＋送物品装备且玩家们也都很有礼貌）这一时期也是公社最平和的时期，人人都团结在公社旗帜下，都参与到公社建设之中，甚至有歪果仁被公社平和的人文环境所折服。这一时期，我们通过民主选举得到了第一任管理员，他们是<code>LDCONNN</code>和<code>JiMoer</code>。</p><h2 id="后期"><a class="header-anchor" href="#后期">#</a>后期</h2><h3 id="日最高人数：14人"><a class="header-anchor" href="#日最高人数：14人">#</a>日最高人数：14人</h3><h3 id="插件-v3"><a class="header-anchor" href="#插件-v3">#</a>插件</h3><ul><li>CoreProtect</li><li>ebackup</li><li>Geyser-Spigot</li><li>LuckPerms</li><li>nLogin</li><li>VoteChange</li></ul><h3 id="特征-v3"><a class="header-anchor" href="#特征-v3">#</a>特征</h3><ul><li>出现了私有制</li><li>公有建筑进一步增多</li><li>主城建设委员会成立</li><li>项目：全体苏维埃会议大楼建设</li><li>玩家从群居变为离散居住</li></ul><h3 id="点评-v3"><a class="header-anchor" href="#点评-v3">#</a>点评</h3><p>这一时期较为动荡，出现了私有制，出现了共有建筑被人为损毁的案例，对此，NKVD内务人民委员会成立，在这一时期，服务器管理层面出现问题，导致了不可恢复的后果，经全体社员决议，管理员权力被限制。</p><p>出现了公有建筑被个人占有，公有建筑及私有建筑被烧毁，爆破的案例，个人矛盾激化，公社由此开始了分裂进程，随着私有制的出现，公社互助原则也就不复存在了，出现了资本市场交易，与资本原始积累，共产主义标语被无视，被恶意篡改，破坏。在这里，也能看到如<code>“伟大的公社建设者”</code>变成了<code>“伟大的公社建设者JiMoer”</code>的恶意篡改，大搞个人崇拜，出现了不平等的现象，全体社员选出来的代表，竟然发生了内斗，<code>LDCONNN</code>（管理员）竟然封禁了<code>JiMoer</code>（管理员），经过全体社员的决策，取消<code>LDCONNN</code>的管理员资格，进一步限制管理员权力。</p><p>公社的民主标志也遭到了破坏（投票机损毁）</p><h2 id="末期"><a class="header-anchor" href="#末期">#</a>末期</h2><h3 id="插件-v4"><a class="header-anchor" href="#插件-v4">#</a>插件</h3><ul><li>CoreProtect</li><li>ebackup</li><li>Geyser-Spigot</li><li>LuckPerms</li><li>nLogin</li><li>VoteChange</li><li>EssentialsX</li></ul><h3 id="特征-v4"><a class="header-anchor" href="#特征-v4">#</a>特征</h3><ul><li>人员流失</li><li>生存纯度不够</li><li>公社的资本化</li><li>个人的利己化</li></ul><h3 id="点评-v4"><a class="header-anchor" href="#点评-v4">#</a>点评</h3><p>这一时期，也是公社的黑暗时期，在这一时期，人员开始流失，由于过度的插件和指令干预，纯生存慢慢的变了味，公社也开始资本和，竟出现了</p><p>完全公开的市场交易而非按需分配，只有公有建筑才体现出了共产，服务器人文环境进一步恶化，出现了猜疑，意气用事，很多社员对这一现象表达不满，于是发起了另一个决议：更换存档。</p><p>对于这个决议，支持者和反对者对半，竟两次得票数相同。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 安那其共产主义 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 公社事务 </tag>
+            
+            <tag> Minecraft </tag>
+            
+            <tag> 学业革命 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>招聘启示</title>
       <link href="/posts/pep521/"/>
       <url>/posts/pep521/</url>
@@ -20,11 +49,11 @@
       
         <tags>
             
+            <tag> 公社事务 </tag>
+            
             <tag> AoMe奥美互助公社 </tag>
             
             <tag> MSC磁铁学生公社 </tag>
-            
-            <tag> 公社事务 </tag>
             
         </tags>
       
