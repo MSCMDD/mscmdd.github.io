@@ -5,7 +5,7 @@ indent: true
 layout: wiki
 order: 100
 title: Minecraft我的世界及服务器
-updated: 2023-7-22T8:39:9.797+8:0
+updated: 2023-11-9T12:5:18.807+8:0
 wiki: Games
 ---
 ## 联机伺服器
@@ -18,11 +18,6 @@ wiki: Games
 * Minecraft JAVA1.20.1
 * Minecraft BE 1.20.1
 
-
 服务器名称：{% copy M&A互助公社联盟 %}
 服务器地址：{% copy msc-a.dynv6.net %}
 服务器API接口：{% copy https://www.fansmc.com/serverapi/1942 %}
-
-{% image https://img1.imgtp.com/2023/05/16/AgJYmEQa.jpg %}
-{% image https://img1.imgtp.com/2023/05/16/lXmmeaZq.jpg %}
-{% image https://img1.imgtp.com/2023/05/16/8e3pNWSv.png %}
