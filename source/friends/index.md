@@ -16,4 +16,4 @@ updated: 2023-11-11T21:20:36.262+8:0
 <div id="friend-content" class="friend-content"></div>
 <link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
 <script src="https://unpkg.com/qexo-friends/Stellar/friends.js"></script>
-<script>loadQexoFriends("friend-content", "网址")</script>
+<script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
