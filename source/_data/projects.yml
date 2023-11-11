@@ -45,7 +45,7 @@ Games:
   subtitle: '一个活跃的游戏公会 | 魔怔壬聚集地（bushi'
   cover: true
   logo:
-    src: https://www.ali213.net/picfile/News/2009/12/09/mowrtcn_03.jpg
+    src: https://acgapi.shifeiti.com/api/ # https://www.ali213.net/picfile/News/2009/12/09/mowrtcn_03.jpg
     small: 120px
     large: 240px
   description: 一个活跃的游戏公会
