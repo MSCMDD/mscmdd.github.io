@@ -10,11 +10,13 @@ tags:
 - Minecraft
 - 学业革命
 title: Minecraft服务器的共产主义尝试
-updated: 2023-8-20T23:8:53.178+8:0
+updated: 2023-11-11T21:54:17.119+8:0
 ---
 # Minecraft服务器的共产主义尝试
 
 不知不觉中，我整个假期都在维护服务器，以下是对服务器共产主义尝试的总结。
+
+[M&A互助公社 服务器官方网站 (maserver.netlify.app)](https://maserver.netlify.app/)
 
 游玩服务器的玩家们在本文被称为`“社员”`
 
