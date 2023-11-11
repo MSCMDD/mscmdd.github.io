@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mscmdd.github.io/posts/80b86585/</loc>
-    <lastmod>2023-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://mscmdd.github.io/posts/80b86583/</loc>
-    <lastmod>2023-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://mscmdd.github.io/posts/3cdf7d12/</loc>
-    <lastmod>2023-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://mscmdd.github.io/posts/1bbb153b/</loc>
-    <lastmod>2023-11-11</lastmod>
-  </url>
-  <url>
     <loc>https://mscmdd.github.io/posts/85d110fa/</loc>
     <lastmod>2023-11-11</lastmod>
   </url>
@@ -45,11 +29,11 @@
     <lastmod>2023-11-11</lastmod>
   </url>
   <url>
-    <loc>https://mscmdd.github.io/posts/pep521/</loc>
+    <loc>https://mscmdd.github.io/posts/bd1dcea7/</loc>
     <lastmod>2023-11-11</lastmod>
   </url>
   <url>
-    <loc>https://mscmdd.github.io/posts/bd1dcea7/</loc>
+    <loc>https://mscmdd.github.io/posts/pep521/</loc>
     <lastmod>2023-11-11</lastmod>
   </url>
   <url>
@@ -77,15 +61,31 @@
     <lastmod>2023-11-11</lastmod>
   </url>
   <url>
+    <loc>https://mscmdd.github.io/posts/80b86583/</loc>
+    <lastmod>2023-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://mscmdd.github.io/posts/80b86585/</loc>
+    <lastmod>2023-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://mscmdd.github.io/posts/3cdf7d12/</loc>
+    <lastmod>2023-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://mscmdd.github.io/posts/1bbb153b/</loc>
+    <lastmod>2023-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://mscmdd.github.io/posts/9e7ed75/</loc>
+    <lastmod>2023-11-11</lastmod>
+  </url>
+  <url>
     <loc>https://mscmdd.github.io/posts/4a17b156/</loc>
     <lastmod>2023-11-11</lastmod>
   </url>
   <url>
     <loc>https://mscmdd.github.io/posts/598f1ba2/</loc>
-    <lastmod>2023-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://mscmdd.github.io/posts/9e7ed75/</loc>
     <lastmod>2023-11-11</lastmod>
   </url>
 </urlset> 
