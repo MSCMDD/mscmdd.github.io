@@ -200,14 +200,14 @@
 
   function load_comment(){
     if(!document.getElementById("waline_container"))return;
-    stellar.loadCSS('https://cdnjs.cloudflare.com/ajax/libs/waline/2.15.5-alpha.0/waline.min.css');
-    stellar.loadScript('https://cdnjs.cloudflare.com/ajax/libs/waline/2.15.5-alpha.0/waline.min.js', {defer:true}).then(function () {
+    stellar.loadCSS('https://cdn.bootcdn.net/ajax/libs/waline/2.15.7/waline.min.css');
+    stellar.loadScript('https://cdn.bootcdn.net/ajax/libs/waline/2.15.7/waline.min.js', {defer:true}).then(function () {
       const el = document.getElementById("waline_container");
       var path = el.getAttribute('comment_id');
       if (!path) {
         path = decodeURI(window.location.pathname);
       }
-      Waline.init(Object.assign({"js":"https://cdnjs.cloudflare.com/ajax/libs/waline/2.15.5-alpha.0/waline.min.js","css":"https://cdnjs.cloudflare.com/ajax/libs/waline/2.15.5-alpha.0/waline.min.css","serverURL":"https://aome.giize.com","commentCount":true,"pageview":false}, {
+      Waline.init(Object.assign({"js":"https://cdn.bootcdn.net/ajax/libs/waline/2.15.7/waline.min.js","css":"https://cdn.bootcdn.net/ajax/libs/waline/2.15.7/waline.min.css","serverURL":"https://aome.giize.com","commentCount":true,"pageview":false}, {
         el: '#waline_container',
         path: path,
 		lang: 'zh-CN',
