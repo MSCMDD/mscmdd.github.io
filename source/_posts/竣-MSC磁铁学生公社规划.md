@@ -1,7 +1,9 @@
 ---
 abbrlink: ''
+author: 李﹡竣（现任社长）
 categories: []
 date: '2023-11-26T22:38:30.091715+08:00'
+indent: true
 tags: []
 title: 磁铁学生公社（MSC）规划
 updated: 2023-11-26T23:23:26.888+8:0
