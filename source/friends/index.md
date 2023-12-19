@@ -2,12 +2,9 @@
 date: '2023-04-21T12:15:54+08:00'
 menu_id: friends
 title: 友情链接
-updated: 2023-11-11T22:28:24.371+8:0
+updated: '2023-12-19T22:46:52.175+08:00'
 ---
-<div id="friend-content" class="friend-content"></div>
-<link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
-<script src="https://unpkg.com/qexo-friends/Stellar/friends.js"></script>
-<script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
+<div id="friend-content" class="friend-content"></div> <link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/> <script src="https://unpkg.com/qexo-friends/Stellar/friends.js"></script> <script>loadQexoFriends("friend-content", "qexo.giize.com")</script>
 
 ### 申请友链
 
