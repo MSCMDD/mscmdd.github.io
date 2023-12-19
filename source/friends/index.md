@@ -9,7 +9,7 @@ updated: '2023-12-19T23:00:37.152+08:00'
 ### 申请友链
 
 <div id="friends-api"></div>
-<script src="https://unpkg.com/qexo-friends/friends-api.js"></script>
+<script src="https://npm.elemecdn.com/qexo-friends/friends-api.js"></script>
 <script>qexo_friend_api("friends-api","https://qexo.giize.com","");</script>
 
 ### 朋友的文章
