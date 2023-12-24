@@ -198,7 +198,7 @@ live2d:
     # use: live2d-widget-model-wanko # npm-module package name
     # use: wanko # 博客根目录/live2d_models/ 下的目录名
     # use: ./wives/wanko # 相对于博客根目录的路径
-    use: https://cdn.jsdelivr.net/gh/imuncle/live2d@39636fd2bc049e6665018a617ed42f9368a155c0/model/HyperdimensionNeptunia/blanc_normal/index.json # 你的自定义 url
+    use: https://live2dcdn.pages.dev/model/HyperdimensionNeptunia/blanc_normal/index.json # 你的自定义 url
   display:
     position: right # 定位方向 left right top bottom
     height: 500 #  小人高度
