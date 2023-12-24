@@ -3,8 +3,8 @@ stellar:
   version: '1.18.5'
   homepage: 'https://xaoxuu.com/wiki/stellar/'
   repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
-  cdn_css: # Use cdn links instead of /css/main.css
-  cdn_js: # Use cdn links instead of /js/main.js
+  cdn_css: 'https://mscaome.netlify.app/'# Use cdn links instead of /css/main.css
+  cdn_js: 'https://mscaome.netlify.app/'# Use cdn links instead of /js/main.js
 
 
 ######## head tags ########
@@ -149,8 +149,8 @@ comments:
   # Waline
   # https://waline.js.org/
   waline:
-    js: https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.js
-    css: https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.css
+    js: https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.js
+    css: https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.css
     # Waline server address url, you should set this to your own link
     serverURL: https://aome.giize.com
     # 原服务端：https://msc-a.dynv6.net:8365
