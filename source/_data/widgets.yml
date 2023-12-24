@@ -75,7 +75,7 @@ comest:
   content: |
       <div id="waline-users"><i class="fa fa-cog fa-spin"></i>连接waline数据中...</div>
       <script type="module">
-      import { UserList } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+      import { UserList } from 'https://registry.npmmirror.com/@waline/client/3.0.0-alpha.8/files/dist/waline.mjs';
       UserList({
         el: '#waline-users',
         serverURL: 'https://aome.giize.com',
