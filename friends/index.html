@@ -175,14 +175,14 @@
 
   function load_comment(){
     if(!document.getElementById("waline_container"))return;
-    stellar.loadCSS('https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.css');
-    stellar.loadScript('https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.js', {defer:true}).then(function () {
+    stellar.loadCSS('https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.css');
+    stellar.loadScript('https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.js', {defer:true}).then(function () {
       const el = document.getElementById("waline_container");
       var path = el.getAttribute('comment_id');
       if (!path) {
         path = decodeURI(window.location.pathname);
       }
-      Waline.init(Object.assign({"js":"https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.js","css":"https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.css","serverURL":"https://aome.giize.com","commentCount":true,"pageview":false,"emoji":["https://registry.npmmirror.com/@waline/emojis/latest/files/bilibili/","https://registry.npmmirror.com/@waline/emojis/latest/files/tieba/","https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/"]}, {
+      Waline.init(Object.assign({"js":"https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.js","css":"https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.css","serverURL":"https://aome.giize.com","commentCount":true,"pageview":false,"emoji":["https://registry.npmmirror.com/@waline/emojis/latest/files/bilibili/","https://registry.npmmirror.com/@waline/emojis/latest/files/tieba/","https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/"]}, {
         el: '#waline_container',
         path: path,
 		lang: 'zh-CN',
