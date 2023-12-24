@@ -162,11 +162,11 @@ comments:
     emoji:
     #   - https://unpkg.com/@waline/emojis@1.1.0/weibo
     #   - https://unpkg.com/@waline/emojis@1.1.0/alus
-      - https://registry.npmmirror.com/@waline/emojis/1.2.0/files/bilibili/
+      - https://registry.npmmirror.com/@waline/emojis/latest/files/bilibili/
     #   - https://unpkg.com/@waline/emojis@1.1.0/qq
-    #   - https://unpkg.com/@waline/emojis@1.1.0/tieba
+      - https://registry.npmmirror.com/@waline/emojis/latest/files/tieba/
     #   - https://unpkg.com/@waline/emojis@1.1.0/tw-emoji
-      - https://registry.npmmirror.com/@waline/emojis/1.2.0/files/bmoji/
+      - https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/
     # 设置自己的图床服务，替换默认的 Base 64 编码嵌入（有体积大小限制），在评论中上传图片更加方便
     # imageUploader:
       # 适配了兰空图床V1、V2版本
