@@ -3,8 +3,8 @@ stellar:
   version: '1.18.5'
   homepage: 'https://xaoxuu.com/wiki/stellar/'
   repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
-  cdn_css: 'https://mscaome.netlify.app/'# Use cdn links instead of /css/main.css
-  cdn_js: 'https://mscaome.netlify.app/'# Use cdn links instead of /js/main.js
+  cdn_css: '//mscmdd-github-io.pages.dev/css/main.css'# Use cdn links instead of /css/main.css
+  cdn_js: '//mscmdd-github-io.pages.dev/js/main.js'# Use cdn links instead of /js/main.js
 
 
 ######## head tags ########
