@@ -37,17 +37,16 @@ const locale = {
       }
       Waline.init(Object.assign(<%- JSON.stringify(theme.comments.waline) %>, {
         el: '#waline_container',
- 	reaction: [
-    		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_call.png',
-		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_unavailble_doge.png',
-		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_cool.png',
-        	'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_roll_eye.png',
-        	'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_what.png',
-        	'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_sleeply.png',
-        ],
         path: path,
 		lang: 'zh-CN',
-		reaction: true,
+ 		reaction: [
+    			'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_call.png',
+			'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_unavailble_doge.png',
+			'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_cool.png',
+        		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_roll_eye.png',
+        		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_what.png',
+        		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_sleeply.png',
+   	        ],
 		locale,
         <% if(!!theme.comments.waline.imageUploader?.api){ %>
           imageUploader: function(file) {
