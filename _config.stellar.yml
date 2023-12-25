@@ -328,13 +328,13 @@ plugins:
 
   # stellar api
   stellar:
-    sites: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/main.js
-    friends: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/friends.js
-    ghinfo: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/ghinfo.js
-    timeline: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/timeline.js
-    linkcard: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/linkcard.js
-    fcircle: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/fcircle.js
-    weibo: https://fastly.jsdelivr.net/gh/MSCMDD/mscmdd.github.io@gh-pages/js/plugins/weibo.js
+    sites: //mscmdd-github-io.pages.dev/js/main.js
+    friends: //mscmdd-github-io.pages.dev/js/plugins/friends.js
+    ghinfo: //mscmdd-github-io.pages.dev/js/plugins/ghinfo.js
+    timeline: //mscmdd-github-io.pages.dev/js/plugins/timeline.js
+    linkcard: //mscmdd-github-io.pages.dev/js/plugins/linkcard.js
+    fcircle: //mscmdd-github-io.pages.dev/js/plugins/fcircle.js
+    weibo: //mscmdd-github-io.pages.dev/js/plugins/weibo.js
 
   marked: https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js
 
