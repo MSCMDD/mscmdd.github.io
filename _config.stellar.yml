@@ -201,11 +201,11 @@ comments:
 ######## Footer ########
 footer:
   social:
-     site-a:
-       icon: '<img src="/medias/logo.svg"/>'
-       url: https://aome-c.github.io/
+     # site-a:
+       # icon: '<img src="/medias/logo.svg"/>'
+       # url: https://aome-c.github.io/
      github:
-       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/08a41b181ce68.svg"/>'
+       icon: '<img src="https://mscphoto.pages.dev/WebsiteRes/github.svg"/>'
        url: https://github.com/MSCMDD
      email: 
        icon: '<i class="fa fa-envelope-o"></i>'
@@ -220,7 +220,7 @@ footer:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/3616429.svg"/>'
     #   url: /
      comments:
-       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/942ebbf1a4b91.svg"/>'
+       icon: '<img src="https://mscphoto.pages.dev/WebsiteRes/comment.svg"/>'
        url: /contact/#comments
      writing:
        icon: '<i class="fa fa-file-text-o"></i>'
@@ -400,9 +400,9 @@ plugins:
   # 使用 hexo-renderer-markdown-it-plus 作为公式渲染器：npm uninstall hexo-renderer-marked --save npm install hexo-renderer-markdown-it-plus --save
   katex:
     enable: false
-    min_css: <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
-    min_js: <script defer src="https://gcore.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
-    auto_render_min_js: <script defer src="https://gcore.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"onload="renderMathInElement(document.body);"></script>
+    min_css: <link rel="stylesheet" href="https://registry.npmmirror.com/katex/latest/files/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+    min_js: <script defer src="https://registry.npmmirror.com/katex/latest/files/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+    auto_render_min_js: <script defer src="https://registry.npmmirror.com/katex/latest/files/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"onload="renderMathInElement(document.body);"></script>
 
   # Mermaid - markdwon to flow chart, seq chart, class chart ...
   # 需要安装 npm install --save hexo-filter-mermaid-diagrams
@@ -454,10 +454,10 @@ style:
     hover: 'hsl(14 100% 57%)' # 按钮高亮颜色
   animated_avatar:
     animate: auto # auto, always
-    background: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp
+    background: https://mscphoto.pages.dev/WebsiteRes/rainbow.webp
   codeblock:
     scrollbar: 4px
-    highlightjs_theme: https://gcore.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark.min.css
+    highlightjs_theme: https://mscphoto.pages.dev/WebsiteRes/atom-one-dark.min.css
   loading:
     loading: 正在加载
     error: 加载失败，请稍后重试。~
@@ -466,10 +466,10 @@ style:
     search: 'linear-gradient(to right, #04F3FF, #08FFC6, #DDF730, #FFBD19, #FF1FE0, #C418FF, #04F3FF)'
 
 default:
-  avatar: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/3442075.svg
-  link: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/link/8f277b4ee0ecd.svg
-  cover: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/cover/76b86c0226ffd.svg
-  image: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg
+  avatar: https://mscphoto.pages.dev/WebsiteRes/head.svg
+  link: https://mscphoto.pages.dev/WebsiteRes/MyMother.svg
+  cover: https://mscphoto.pages.dev/WebsiteRes/ErrorPhoto.svg
+  image: https://mscphoto.pages.dev/WebsiteRes/photo.svg
 
 api_host:
   ghapi: https://api.github.com
