@@ -4,8 +4,8 @@ date: 2023-04-27 22:02:40
 menu_id: comments
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/qexo-static@1.5.1/hexo/talks.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qexo-static@1.5.1/hexo/talks.min.css">
+<script src="//registry.npmmirror.com/qexo-static/2.3.1/files/hexo/talks/talks.js"></script>
+<link rel="stylesheet" href="//registry.npmmirror.com/qexo-static/2.3.1/files/hexo/talks/talks.css">
 <div id="qexot"></div>
 <script>showQexoTalks("qexot", "https://qexo.giize.com", 5)</script>
 
