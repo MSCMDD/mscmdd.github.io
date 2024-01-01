@@ -14,5 +14,6 @@ updated: '2024-01-01T21:59:00.644+08:00'
 
 ### 朋友的文章
 
-{% timeline type:fcircle api:https://hexo-circle-of-friends-4sn.pages.dev/friends.json %}
+{% timeline type:fcircle api:https://friendslink.pages.dev/data.json %}
 {% endtimeline %}
+
