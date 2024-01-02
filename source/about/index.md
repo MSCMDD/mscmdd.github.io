@@ -48,7 +48,7 @@ function switchPostChart () {
 <div id="categories-chart"  style="border-radius: 8px; height: 300px; padding: 10px;"></div>
 
 ### 建交（友情链接）
-{% friends api:https://raw.gitmirror.com/MSCMDD/friends/output/v2/data.json %}
+<div id="friend-content" class="friend-content"></div> <link rel="stylesheet" href="https://npm.elemecdn.com/qexo-friends/friends.css"/> <script src="https://npm.elemecdn.com/qexo-friends/Stellar/friends.js"></script> <script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
 
 ### 关于磁铁学生公社(MSC)
 磁铁学生公社是一个由学生自发组织、完全自治的学生组织团体。该团体旨在为学生提供自主创新、交流与实践的平台，促进同学们之间的相互学习和交流。
