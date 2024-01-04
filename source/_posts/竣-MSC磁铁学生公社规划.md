@@ -1,12 +1,14 @@
 ---
 abbrlink: ''
 author: 李﹡竣（现任社长）
+banner: https://mscphoto.pages.dev/img/CTXD.png
 categories: []
+cover: https://mscphoto.pages.dev/img/CTXD.png
 date: '2023-11-26T22:38:30.091715+08:00'
 indent: true
 tags: []
 title: 磁铁学生公社（MSC）规划
-updated: '2023-12-23T13:00:43.250+08:00'
+updated: '2024-01-04T22:38:10.708+08:00'
 ---
 ### 一、各部门规定
 
