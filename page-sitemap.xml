@@ -11,7 +11,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/res/MSCRes.html</loc>
-        <lastmod>2024-01-04T14:36:28.878Z</lastmod>
+        <lastmod>2024-01-04T14:37:20.529Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -20,7 +20,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/res/</loc>
-        <lastmod>2024-01-04T14:36:28.878Z</lastmod>
+        <lastmod>2024-01-04T14:37:20.529Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -29,34 +29,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/res/MSCRES/Study.html</loc>
-        <lastmod>2024-01-04T14:36:28.878Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/contact/</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/games/</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
+        <lastmod>2024-01-04T14:37:20.529Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -65,7 +38,16 @@
     
     <url>
         <loc>https://mscmdd.github.io/games/minecraftserver.html</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
+        <lastmod>2024-01-04T14:37:20.513Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/games/</loc>
+        <lastmod>2024-01-04T14:37:20.513Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -74,7 +56,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/games/navy.html</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
+        <lastmod>2024-01-04T14:37:20.513Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -83,88 +65,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/games/wotb.html</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/aome/main.html</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/join/</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/msc/main.html</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/msc/mdd.html</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/msc/law/MDD-Temporary.html</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/msc/law/Temporary.html</loc>
-        <lastmod>2024-01-04T14:36:28.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/about/focus.html</loc>
-        <lastmod>2024-01-04T14:36:28.858Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/about/</loc>
-        <lastmod>2024-01-04T14:36:28.858Z</lastmod>
+        <lastmod>2024-01-04T14:37:20.513Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -173,7 +74,106 @@
     
     <url>
         <loc>https://mscmdd.github.io/bulletin/</loc>
-        <lastmod>2024-01-04T14:36:28.858Z</lastmod>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/contact/</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/aome/main.html</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/msc/main.html</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/join/</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/msc/mdd.html</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/msc/law/MDD-Temporary.html</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/msc/law/Temporary.html</loc>
+        <lastmod>2024-01-04T14:37:20.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/about/focus.html</loc>
+        <lastmod>2024-01-04T14:37:20.505Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/about/</loc>
+        <lastmod>2024-01-04T14:37:20.505Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
