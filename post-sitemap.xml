@@ -9,72 +9,8 @@
 
 
     <url>
-        <loc>https://mscmdd.github.io/posts/80b86582/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://mscmdd.github.io/posts/3cdf7d28/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://mscmdd.github.io/posts/3cdf5d71/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://mscmdd.github.io/posts/bd1dcea7/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://mscmdd.github.io/posts/pep521/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://mscmdd.github.io/posts/945b8841/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://mscmdd.github.io/posts/df582af6/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://mscmdd.github.io/posts/1158c81d/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://mscmdd.github.io/posts/b78e20a7/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -82,7 +18,7 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/80b86583/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -90,7 +26,7 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/80b86585/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -98,7 +34,7 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/3cdf7d12/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -106,7 +42,7 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/1bbb153b/</loc>
-        <lastmod>2024-01-04T14:33:51.452Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -114,7 +50,7 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/85d110fa/</loc>
-        <lastmod>2024-01-04T14:33:51.448Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -122,7 +58,71 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/10bb3792/</loc>
-        <lastmod>2024-01-04T14:33:51.448Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/80b86582/</loc>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/3cdf7d28/</loc>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/3cdf5d71/</loc>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/bd1dcea7/</loc>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/pep521/</loc>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/945b8841/</loc>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/df582af6/</loc>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/1158c81d/</loc>
+        <lastmod>2024-01-04T14:33:59.457Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -130,7 +130,7 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/9e7ed75/</loc>
-        <lastmod>2024-01-04T14:33:51.404Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.421Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -138,7 +138,7 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/4a17b156/</loc>
-        <lastmod>2024-01-04T14:33:51.404Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.421Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -146,7 +146,15 @@
 
     <url>
         <loc>https://mscmdd.github.io/posts/598f1ba2/</loc>
-        <lastmod>2024-01-04T14:33:51.404Z</lastmod>
+        <lastmod>2024-01-04T14:33:59.421Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://mscmdd.github.io/posts/6f18ec24/</loc>
+        <lastmod>2024-01-04T06:33:10.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -163,14 +171,6 @@
     <url>
         <loc>https://mscmdd.github.io/posts/59ba66bd/</loc>
         <lastmod>2024-01-04T06:25:59.810Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://mscmdd.github.io/posts/6f18ec24/</loc>
-        <lastmod>2024-01-01T01:14:39.517Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
