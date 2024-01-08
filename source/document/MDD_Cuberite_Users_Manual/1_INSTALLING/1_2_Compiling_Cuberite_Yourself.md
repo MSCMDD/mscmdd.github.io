@@ -16,4 +16,4 @@ sh -c "$(wget -O - https://compile.cuberite.org)"
 
 如果您更喜欢手动编译，或者想要为Windows编译，请参阅主存储库中的[COMPILING.md](https://github.com/cuberite/cuberite/blob/master/COMPILING.md)文件。
 
-{% note color:warning 这个过程需要使用命令行。如果您对命令行不熟悉，建议您使用[预编译的构建版本](/document/MDD_Cuberite_Users_Manual/1_INSTALLING/1_2_Compiling_Cuberite_Yourself)。 %}
+{% note color:warning 这个过程需要使用命令行。如果您对命令行不熟悉，建议您使用[预编译的构建版本](/document/MDD_Cuberite_Users_Manual/1_INSTALLING/1_1_Pre-Compiled_Builds)。 %}

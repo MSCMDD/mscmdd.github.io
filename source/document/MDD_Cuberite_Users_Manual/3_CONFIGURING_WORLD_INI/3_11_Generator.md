@@ -15,7 +15,7 @@ comment_id: /document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/
 
 | 变量 | 描述 | 缺省值 |
 | --- | --- | --- |
-| Generator | 生成器：</br>- [Composable](https://book.cuberite.org/#Generator_Composable)</br>- Noise3D | Composable |
+| Generator | 生成器：</br>- [Composable](/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_11_Generator.html#COMPOSABLE-GENERATOR)</br>- Noise3D | Composable |
 
 {% quot COMPOSABLE GENERATOR %}
 
@@ -30,7 +30,7 @@ COMPOSABLE GENERATOR是一个非常强大的工具。您可以混合和匹配不
 | ShapeGen | 这个值决定了世界的生成方式。 | BiomalNoise3D |
 | CompositionGen | 这决定了生成器填充实体方块的方式。 | Biomal |
 | CompositionGenCacheSize |  | 64 |
-| Finishers |  | [Default Finishers](none) |
+| Finishers |  | [Default Finishers](/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_11_Generator.html#FINISHERS) |
 |  |  |  |
 
 {% quot BIOMEGEN %}

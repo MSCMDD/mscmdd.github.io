@@ -4,6 +4,9 @@ subtitle: 'CUBERITE 用户手册 | 磁铁开发部(MDD)'
 icon: https://cuberite.org/favicon.ico
 cover: https://cuberite.org/favicon.ico
 coverpage: true
+tags: [磁铁开发部(MDD)]
+share: true
+repo: cuberite/users-manual
 description: 这是Cuberite用户手册。它旨在指导如何操作Cuberite的基本功能，并介绍一些高级功能。手册分为主要部分和更详细的子部分，并在目录中列出。第一部分介绍了下载、安装和运行Cuberite。第二部分是配置Cuberite的概述。阅读这两个部分足以让您入门。其余部分涵盖了更高级的功能和更深入的配置选项。
 sidebar: 
   - search:
