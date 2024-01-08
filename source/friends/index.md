@@ -6,7 +6,7 @@ updated: '2024-01-02T12:20:16.340+08:00'
 ---
 <div id="friend-content" class="friend-content"></div>
 <link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
-<script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/friends.js"></script>
+<script src="https://gcore.jsdelivr.net/npm/qexo-static@1.6.0/hexo/friends.js"></script>
 <script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
 
 ### 申请友链
