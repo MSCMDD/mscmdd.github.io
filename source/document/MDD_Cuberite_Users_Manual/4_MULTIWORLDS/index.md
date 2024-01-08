@@ -2,7 +2,7 @@
 layout: wiki  # 使用wiki布局模板
 wiki: MDD_Cuberite_Users_Manual # 这是项目名
 title: 4 - MULTIWORLDS (多世界)
-comment_id: /document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/
+comment_id: /document/MDD_Cuberite_Users_Manual/4_MULTIWORLDS/
 ---
 ## 1 - 多世界概述
 
