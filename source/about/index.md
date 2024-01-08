@@ -52,7 +52,7 @@ function switchPostChart () {
 <div id="friend-content" class="friend-content"></div>
 <link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
 <script src="https://unpkg.com/qexo-friends/Stellar/friends.js"></script>
-<script>loadQexoFriends("friend-content", "[网址](https://qexo.giize.com)")</script>
+<script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
 
 ### 关于磁铁学生公社(MSC)
 磁铁学生公社是一个由学生自发组织、完全自治的学生组织团体。该团体旨在为学生提供自主创新、交流与实践的平台，促进同学们之间的相互学习和交流。
