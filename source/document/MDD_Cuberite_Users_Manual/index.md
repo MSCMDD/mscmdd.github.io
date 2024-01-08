@@ -10,6 +10,6 @@ comment_id: /document/MDD_Cuberite_Users_Manual/
 {% link https://gitee.com/dfggmc/cuberite_dfgg desc:true %}
 {% link https://github.com/cuberite/users-manual desc:true %}
 
-### 汉化项目参与方
+### 用户手册汉化项目参与方
 
 {% friends MDD_Cuberite_Users_Manual %}
