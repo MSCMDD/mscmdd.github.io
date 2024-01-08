@@ -10,7 +10,7 @@ comment_id: /document/MDD_Cuberite_Users_Manual/1_INSTALLING/
 
 自动编译脚本适用于*nix用户。自动编译脚本会为您处理编译过程。您只需将以下命令复制到终端中即可：
 
-```
+``` bash
 sh -c "$(wget -O - https://compile.cuberite.org)"
 ```
 

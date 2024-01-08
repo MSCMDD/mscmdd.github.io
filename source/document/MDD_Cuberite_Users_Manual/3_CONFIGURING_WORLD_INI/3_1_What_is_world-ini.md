@@ -20,7 +20,8 @@ comment_id: /document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/
 该文件被分成许多不同的部分，每个部分都用方括号括起来的名称标识。例如，[SpawnPosition]是一个部分。每个部分包含与Cuberite的特定功能相关的配置选项。
 
 {% folding world.ini的默认设置 %}
-``` world.ini
+
+``` ini
 
 [General]
 Dimension=Overworld
