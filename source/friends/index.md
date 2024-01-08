@@ -4,7 +4,10 @@ menu_id: friends
 title: 友情链接
 updated: '2024-01-02T12:20:16.340+08:00'
 ---
-<div id="friend-content" class="friend-content"></div> <link rel="stylesheet" href="https://npm.elemecdn.com/qexo-friends/friends.css"/> <script src="https://npm.elemecdn.com/qexo-friends/Stellar/friends.js"></script> <script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
+<div id="friend-content" class="friend-content"></div>
+<link rel="stylesheet" href="https://npm.elemecdn.com/qexo-friends/friends.css"/>
+<script src="https://npm.elemecdn.com/qexo-friends/Stellar/friends.js"></script>
+<script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
 
 ### 申请友链
 
