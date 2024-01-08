@@ -1,9 +1,9 @@
 ---
-abbrlink: ''
+abbrlink: 3aba364a
 author: 李﹡竣（现任社长）
-banner: https://mscphoto.pages.dev/img/CTXD.png
+banner: 'https://mscphoto.pages.dev/img/CTXD.png'
 categories: []
-cover: https://mscphoto.pages.dev/img/CTXD.png
+cover: 'https://mscphoto.pages.dev/img/CTXD.png'
 date: '2023-11-26T22:38:30.091715+08:00'
 indent: true
 tags: []

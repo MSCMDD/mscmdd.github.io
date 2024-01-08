@@ -1,0 +1,46 @@
+name: CUBERITE 中文用户手册
+title: CUBERITE 中文用户手册
+subtitle: 'CUBERITE 用户手册 | 磁铁开发部(MDD)'
+icon: https://cuberite.org/favicon.ico
+cover: https://cuberite.org/favicon.ico
+coverpage: true
+description: 这是Cuberite用户手册。它旨在指导如何操作Cuberite的基本功能，并介绍一些高级功能。手册分为主要部分和更详细的子部分，并在目录中列出。第一部分介绍了下载、安装和运行Cuberite。第二部分是配置Cuberite的概述。阅读这两个部分足以让您入门。其余部分涵盖了更高级的功能和更深入的配置选项。
+sidebar: 
+  - search:
+    override: search
+    filter: /document/MDD_Cuberite_Users_Manual/
+  - toc
+path: /document/MDD_Cuberite_Users_Manual/
+toc:
+  '0 - 介绍':
+    - 0_INTRODUCTION/0_1_Introduction
+    - 0_INTRODUCTION/0_2_What_is_Cuberite
+    - 0_INTRODUCTION/0_3_History
+  '1 - 安装':
+    - 1_INSTALLING/1_1_Pre-Compiled_Builds
+    - 1_INSTALLING/1_2_Compiling_Cuberite_Yourself
+    - 1_INSTALLING/1_3_Running_Cuberite
+  '2 - 基础配置':
+    - 2_CONFIGURATION_BASICS/2_1_CONFIGURATION_OVERVIEW
+    - 2_CONFIGURATION_BASICS/2_2_PERMISSIONS
+    - 2_CONFIGURATION_BASICS/2_3_WEBADMIN
+    - 2_CONFIGURATION_BASICS/2_4_WORLDS
+    - 2_CONFIGURATION_BASICS/2_5_PLUGINS
+  '3 - 配置WORLD.INI':
+    - 3_CONFIGURING_WORLD_INI/3_1_What_is_world-ini
+    - 3_CONFIGURING_WORLD_INI/3_2_General
+    - 3_CONFIGURING_WORLD_INI/3_3_Broadcasting
+    - 3_CONFIGURING_WORLD_INI/3_4_SpawnPosition
+    - 3_CONFIGURING_WORLD_INI/3_5_Storage
+    - 3_CONFIGURING_WORLD_INI/3_6_Plants
+    - 3_CONFIGURING_WORLD_INI/3_7_Physics
+    - 3_CONFIGURING_WORLD_INI/3_8_Mechanics
+    - 3_CONFIGURING_WORLD_INI/3_9_Monsters
+    - 3_CONFIGURING_WORLD_INI/3_10_Weather
+    - 3_CONFIGURING_WORLD_INI/3_11_Generator
+    - 3_CONFIGURING_WORLD_INI/3_12_Other
+    - 3_CONFIGURING_WORLD_INI/3_13_Example_Configurations
+  '4 - 多世界':
+    - index
+
+

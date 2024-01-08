@@ -1,15 +1,15 @@
 btn:
   home: 主页
   blog: 文章
-  wiki: 档案
+  wiki: 项目
   recent_publish: 近期发布
-  all_wiki: 所有档案
+  all_wiki: 所有项目
   category: 分类
   categories: 分类
   tag: 标签
   tags: 标签
   archives: 归档
-  getting_started: 开始阅读
+  getting_started: 开始使用
 
 meta:
   recent_update: 最近更新
@@ -23,7 +23,8 @@ meta:
   related_posts: 您可能感兴趣的文章
   comment_title: 快来参与讨论吧
   back_to_top: 回到顶部
-  more: '更多%s'
+  more: '更多「%s」'
+  created_author: 本文由 %s 发布于
   created: 发布于
   updated: 更新于
   license: 许可协议

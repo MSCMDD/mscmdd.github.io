@@ -1,31 +1,4 @@
 <script>
-const locale = {
-  optional: '可选',
-  placeholder: '(已支持匿名评论)——遗憾莫过于难忘你的背影，却找不到你来过的痕迹 ...',
-  sofa: '来发评论吧~',
-  reply: '回复',
-  admin: '社长',
-  sticky: '置顶',
-  word: '字',
-  wordHint: '评论字数应在 $0 到 $1 字之间！\n当前字数：$2',
-  anonymous: '观察员',
-  level0: '原始社会',
-  level1: '奴隶社会',
-  level2: '封建社会',
-  level3: '资本主义社会',
-  level4: '社会主义社会',
-  level5: '共产主义社会',
-  profile: '个人资料',
-  approved: '通过',
-  waiting: '待审核',
-  spam: '垃圾',
-  unsticky: '取消置顶',
-  oldest: '按倒序',
-  latest: '按正序',
-  hottest: '按热度',
-  reactionTitle: '你认为这篇文章怎么样？',
-};
-
   function load_comment(){
     if(!document.getElementById("waline_container"))return;
     stellar.loadCSS('<%- theme.comments.waline.css %>');
@@ -38,16 +11,6 @@ const locale = {
       Waline.init(Object.assign(<%- JSON.stringify(theme.comments.waline) %>, {
         el: '#waline_container',
         path: path,
-		lang: 'zh-CN',
- 		reaction: [
-    			'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_call.png',
-			'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_unavailble_doge.png',
-			'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_cool.png',
-        		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_roll_eye.png',
-        		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_what.png',
-        		'https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/bmoji_sleeply.png',
-   	        ],
-		locale,
         <% if(!!theme.comments.waline.imageUploader?.api){ %>
           imageUploader: function(file) {
             let headers = new Headers();

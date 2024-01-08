@@ -26,7 +26,7 @@ setInterval(getRTime,1000);
 公社の妙妙屋
 
 一个奇妙的游戏公会 魔怔壬聚集地（bushi
-{% ablock 2024年高考倒计时 color:green %}
+{% box 2024年高考倒计时 color:green %}
 
 # <font color=red><center>2024年高考倒计时</font></center>
 
@@ -42,7 +42,7 @@ setInterval(getRTime,1000);
 <center>倒计时结束时间：2023-06-07 09:00:00</center>
 <center>部分省市区因考试制度的不同考试时间为3天（即6月7日-9日）</center>
 <center><font color=blue>M&A互助联盟提醒大家珍惜时间，这里有2024年高考倒计时，祝大家高考顺利，金榜题名。</font></center>
-{% endablock %}
+{% endbox %}
 
 {% folding （隐藏）备战高考！~学哥学姐们加油！~加油，达瓦里氏！~ color:red %}
 

@@ -1,0 +1,21 @@
+name: 公社の妙妙屋（游戏区）
+title: 公社の妙妙屋
+subtitle: '一个活跃的游戏公会 | 魔怔壬聚集地（bushi'
+icon: https://acgapi.shifeiti.com/api/
+cover: https://acgapi.shifeiti.com/api/
+coverpage: true
+description: 一个活跃的游戏公会。
+sidebar: 
+  - search:
+    override: search
+    filter: /games/
+  - toc
+path: /games/
+toc:
+  '关于':
+    - index
+  '军武类':
+    - wotb
+    - navy
+  '像素':
+    - minecraftserver

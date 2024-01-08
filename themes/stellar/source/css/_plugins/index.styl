@@ -9,8 +9,12 @@ if hexo-config('plugins.scrollreveal.enable')
   @import 'scrollreveal'
 if hexo-config('plugins.fancybox.enable')
   @import 'fancybox'
-if hexo-config('plugins.mermaid.enable')
+if hexo-config('plugins.mermaid.style_optimization')
   @import 'mermaid'
+if hexo-config('plugins.copycode.enable')
+  @import 'copycode'
+if hexo-config('plugins.tianli_gpt.enable')
+  @import 'tianli_gpt'
 
 
 // 评论

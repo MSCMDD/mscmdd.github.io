@@ -1,3 +1,20 @@
+<%
+
+function custom_inject() {
+  var el = '';
+  for (let item of (config.inject?.script || [])) {
+    el += item;
+  }
+  for (let item of (theme.inject?.script || [])) {
+    el += item;
+  }
+  for (let item of (page.inject?.script || [])) {
+    el += item;
+  }
+  return el;
+}
+
+%>
 <script type="text/javascript">
   const stellar = {
     // 懒加载 css https://github.com/filamentgroup/loadCSS
@@ -143,12 +160,9 @@
   if ('<%- theme.plugins.heti.enable %>' == 'true') {
     stellar.plugins.heti = Object.assign(<%- JSON.stringify(theme.plugins.heti) %>);
   }
-  // -------- start 自定义首页文章轮播
-  if ('<%- theme.customSwiperTopArticle.enable %>' == 'true') {
-    stellar.plugins.customSwiperTopArticle = Object.assign(<%- JSON.stringify(theme.customSwiperTopArticle) %>);
+  if ('<%- theme.plugins.copycode.enable %>' == 'true') {
+    stellar.plugins.copycode = Object.assign(<%- JSON.stringify(theme.plugins.copycode) %>);
   }
-  // -------- end 自定义首页文章轮播
-
 </script>
 
 <!-- required -->
@@ -160,11 +174,7 @@
 
 <!-- optional -->
 <%- partial('../plugins/comments/script') %>
+<%- partial('../plugins/parser/script') %>
 
 <!-- inject -->
-<% if (config.inject && config.inject.script && config.inject.script.length > 0) { %>
-  <% config.inject.script.forEach(function(js) { %>
-    <%- js %>
-  <% }) %>
-<% } %>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<%- custom_inject() %>

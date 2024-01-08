@@ -1,13 +1,17 @@
 ######## Stellar info ########
 stellar:
-  version: '1.18.5'
+  version: '1.22.1'
   homepage: 'https://xaoxuu.com/wiki/stellar/'
   repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
-  cdn_css: '//mscmdd-github-io.pages.dev/css/main.css'# Use cdn links instead of /css/main.css
-  cdn_js: '//mscmdd-github-io.pages.dev/js/main.js'# Use cdn links instead of /js/main.js
+  cdn_css: # Use cdn links instead of /css/main.css
+  cdn_js: # Use cdn links instead of /js/main.js
 
 
 ######## head tags ########
+preconnect:
+  # - https://gcore.jsdelivr.net
+  # - https://unpkg.com
+
 open_graph:
   enable: true
   twitter_id: # for open_graph meta
@@ -78,25 +82,12 @@ article:
     enable: true
     max_count: 5
 
-# AI 摘要
-TianliGpt:
-  post: false
-  wiki: false
-  api: 5Q5mpqRK5DkwT1X9Gi5e
-
-CodeBlock:
-  show_copy: true
-  default_text: 'copy'
-  success_text: 'copied'
-
-# 文章搜索
 search:
   service: local_search # local_search, todo...
   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
     field: all # post, page, all
     path: /search.json # 搜索文件存放位置
     content: true # 是否搜索内容
-    codeblock: true # 是否搜索代码块（需要content: true)
 
 
 ######## Comments ########
@@ -126,6 +117,7 @@ comments:
   # giscus
   # https://giscus.app/zh-CN
   giscus:
+    src: https://giscus.app/client.js
     data-repo: xxx/xxx # [在此输入仓库]
     data-repo-id: # [在此输入仓库 ID]
     data-category: # [在此输入分类名]
@@ -143,7 +135,7 @@ comments:
   # Twikoo
   # https://twikoo.js.org/
   twikoo:
-    js: https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.16/twikoo.all.min.js # 建议锁定版本
+    js: https://gcore.jsdelivr.net/npm/twikoo@1.6.8/dist/twikoo.all.min.js # 建议锁定版本
     envId: https://xxx # vercel函数
 
   # Waline
@@ -153,7 +145,6 @@ comments:
     css: https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.css
     # Waline server address url, you should set this to your own link
     serverURL: https://aome.giize.com
-    # 原服务端：https://msc-a.dynv6.net:8365
     # If false, comment count will only be displayed in post page, not in home page
     commentCount: true
     # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`.
@@ -191,8 +182,8 @@ comments:
   # Artalk
   # https://artalk.js.org/
   artalk:
-    css: https://cdn.bootcdn.net/ajax/libs/artalk/2.5.4/Artalk.min.css
-    js: https://cdn.bootcdn.net/ajax/libs/artalk/2.5.4/Artalk.min.js
+    css: https://unpkg.com/artalk@2.7/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.7/dist/Artalk.js
     server: # 后端服务地址
     placeholder: ''
     darkMode: auto
@@ -276,7 +267,7 @@ footer:
 
 ######## Tag Plugins ########
 tag_plugins:
-  # {% ablock %} / {% note %}
+  # {% box %} / {% note %}
   note:
     default_color: '' # light, dark, red, orange, yellow, green, cyan, blue, purple, warning, error
     border: true # true / false
@@ -300,41 +291,65 @@ tag_plugins:
     blobcat: https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/${name}.png
   # {% image %}
   image:
-    fancybox: # true, false
-    replace_original:  #把markdown格式的图片解析成图片标签
-      enable: false
+    fancybox: false # true, false
+  # {% copy xxx %}
+  copy:
+    toast: 复制成功
   # {% timeline %}
   timeline:
     max-height: 80vh
   # {% mark %}
   mark:
     default_color: dark # light, dark, red, orange, yellow, green, cyan, blue, purple, warning, error
-  # {% tag %}
-  tag:
-    default_color: yellow # red, orange, yellow, green, cyan, blue, purple
+  # {% hashtag %}
+  hashtag:
+    default_color: # red, orange, yellow, green, cyan, blue, purple
+  # {% okr o1 percent:0.5 status:normal %}
+  okr:
+    border: true # 是否显示边框
+    status: # 可以自行增加
+      # 进行中状态
+      in_track:
+        color: blue # red, orange, yellow, green, cyan, blue, purple
+        label: 正常
+      at_risk: 
+        color: yellow
+        label: 风险
+      off_track:
+        color: orange
+        label: 延期
+      # 结果状态
+      finished:
+        color: green
+        label: 已完成
+      unfinished:
+        color: red
+        label: 未完成
+  # {% gallery %}
+  gallery:
+    layout: grid # grid / flow
+    size: mix # s / m / l / xl / mix
+    ratio: square # origin / square
 
-# 自定义swiper文章置顶
-customSwiperTopArticle:
- enable: true
- css: https://cdn.bootcdn.net/ajax/libs/Swiper/4.1.6/css/swiper.min.css
- js: https://cdn.bootcdn.net/ajax/libs/Swiper/4.1.6/js/swiper.min.js
- init_js: https://mscmdd-github-io.pages.dev/js/swiper_init.js
+      
+
 
 ######## JS Plugins ########
 plugins:
   ## required plugins ##
   # jquery
-  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js
+  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js
 
   # stellar api
   stellar:
-    sites: //mscmdd-github-io.pages.dev/js/main.js
-    friends: //mscmdd-github-io.pages.dev/js/plugins/friends.js
-    ghinfo: //mscmdd-github-io.pages.dev/js/plugins/ghinfo.js
-    timeline: //mscmdd-github-io.pages.dev/js/plugins/timeline.js
-    linkcard: //mscmdd-github-io.pages.dev/js/plugins/linkcard.js
-    fcircle: //mscmdd-github-io.pages.dev/js/plugins/fcircle.js
-    weibo: //mscmdd-github-io.pages.dev/js/plugins/weibo.js
+    sites: /js/plugins/sites.js
+    friends: /js/plugins/friends.js
+    ghinfo: /js/plugins/ghinfo.js
+    timeline: /js/plugins/timeline.js
+    linkcard: /js/plugins/linkcard.js
+    fcircle: /js/plugins/fcircle.js
+    weibo: /js/plugins/weibo.js
+    memos: /js/plugins/memos.js
 
   marked: https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js
 
@@ -366,40 +381,40 @@ plugins:
   # available for {% image xxx %}
   fancybox:
     enable: true
-    js: https://cdn.bootcdn.net/ajax/libs/fancyapps-ui/5.0.16/fancybox/fancybox.umd.min.js
-    css: https://cdn.bootcdn.net/ajax/libs/fancyapps-ui/5.0.16/fancybox/fancybox.min.css
+    js: https://cdn.bootcdn.net/ajax/libs/fancyapps-ui/5.0.9/fancybox/fancybox.umd.min.js
+    css: https://cdn.bootcdn.net/ajax/libs/fancyapps-ui/5.0.9/fancybox/fancybox.min.css
     # 可以处理评论区的图片（不支持 iframe 类评论系统）例如：
     # 使用twikoo评论可以写: .tk-content img:not([class*="emo"])
     # 使用waline评论可以写: #waline_container .vcontent img
-    selector: #waline_container .vcontent img # 多个选择器用英文逗号隔开
+    selector: .fancybox img # 多个选择器用英文逗号隔开
 
   # swiper
   swiper:
     enable: true
-    css: https://cdn.bootcdn.net/ajax/libs/Swiper/9.2.4/swiper-bundle.min.css
-    js: https://cdn.bootcdn.net/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js
+    css: https://registry.npmmirror.com/swiper/latest/files/swiper-bundle.min.css
+    js: https://registry.npmmirror.com/swiper/latest/files/swiper-bundle.min.js
 
 
   # 赫蹏 (Heti) - 专为中文网页内容设计的排版样式增强
   # https://github.com/sivan/heti
   heti:
     enable: false # 此插件会和代码块冲突，仅适用于纯中文博主。
-    css: https://cdn.bootcdn.net/ajax/libs/heti/0.9.4/heti.min.css
-    js: https://cdn.bootcdn.net/ajax/libs/heti/0.9.4/heti-addon.min.js
+    css: https://registry.npmmirror.com/heti/latest/files/umd/heti.min.css
+    js: https://registry.npmmirror.com/heti/latest/files/umd/heti.min.js
 
   # MathJax
   # 需在Markdown文件开头加入mathjax: true
   # 推荐使用Pandoc: npm uninstall hexo-renderer-marked --save & npm install hexo-renderer-pandoc --save
   mathjax:
-    enable: true
-    cdn: https://cdn.bootcdn.net/ajax/libs/mathjax/2.7.9/MathJax.js
+    # set <mathjax: true> to enable in page's front-matter
+    js: https://cdn.bootcdn.net/ajax/libs/mathjax/2.7.9/MathJax.js
 
   # Katex - The fastest math typesetting library for the web
   # https://katex.org/docs/autorender.html
   # https://github.com/KaTeX/KaTeX
   # 使用 hexo-renderer-markdown-it-plus 作为公式渲染器：npm uninstall hexo-renderer-marked --save npm install hexo-renderer-markdown-it-plus --save
   katex:
-    enable: false
+    # set <katex: true> to enable in page's front-matter
     min_css: <link rel="stylesheet" href="https://registry.npmmirror.com/katex/latest/files/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
     min_js: <script defer src="https://registry.npmmirror.com/katex/latest/files/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
     auto_render_min_js: <script defer src="https://registry.npmmirror.com/katex/latest/files/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"onload="renderMathInElement(document.body);"></script>
@@ -414,16 +429,32 @@ plugins:
   #   B -->|option 2| C(Section C)
   # ```
   mermaid:
-    enable: true
+    # set <mermaid: true> to enable in page's front-matter
+    style_optimization: false # use custom style in stellar
     # js: https://unpkg.com/mermaid@9.0.0/dist/mermaid.min.js
-    js: https://cdn.bootcdn.net/ajax/libs/mermaid/9.4.3/mermaid.min.js
+    js: https://registry.npmmirror.com/mermaid/v9/files/dist/mermaid.min.js
     # Available themes: default | dark | forest | neutral
-    # 推荐使用 dark 主题 在夜间模式下显示效果更好的说测试
-    theme: dark
+    theme: neutral
+
+  # 代码块复制按钮
+  copycode:
+    enable: true
+    js: /js/plugins/copycode.js
+    default_text: 'Copy'
+    success_text: 'Copied'
+    toast: 复制成功
+  
+  # AI 摘要
+  # https://github.com/zhheo/Post-Abstract-AI
+  tianli_gpt:
+    enable: false
+    field: post # all, post, wiki
+    api: 5Q5mpqRK5DkwT1X9Gi5e # tianli_gpt key
+    typingAnimate: true # 打字机动画 
 
 style:
   darkmode: auto # auto / always / false
-  smooth_scroll: true # true / false
+  smooth_scroll: false # true / false 开启时如果目录过长可能无法准确定位
   font-size:
     root: 16px
     body: .9375rem # 15px
@@ -444,7 +475,7 @@ style:
     # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
     background: 'hsl(212 16% 98%)' # 浅色背景颜色
     block: 'hsl(212 8% 95%)' # 块背景颜色
-    code: 'hsl(14 100% 48%)' # 行内代码颜色
+    code: 'hsl(220 20% 10%)' # 'hsl(14 100% 48%)' # 行内代码颜色
     text: 'hsl(0 0% 20%)' # 文本颜色
     # 主题色配置（不会根据明暗动态调整，请设置为通用的颜色）
     theme: 'hsl(192 98% 55%)' # 主题色
@@ -452,24 +483,28 @@ style:
     link: 'hsl(207 90% 54%)' # 超链接颜色
     button: 'hsl(192 98% 55%)' # 按钮颜色
     hover: 'hsl(14 100% 57%)' # 按钮高亮颜色
+  link:
+    underline: true # true / false
   animated_avatar:
     animate: auto # auto, always
-    background: https://mscphoto.pages.dev/WebsiteRes/rainbow.webp
+    background: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.9/avatar/round/rainbow64@3x.webp
   codeblock:
     scrollbar: 4px
-    highlightjs_theme: https://mscphoto.pages.dev/WebsiteRes/atom-one-dark.min.css
+    highlightjs_theme: https://gcore.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark.min.css
   loading:
     loading: 正在加载
-    error: 加载失败，请稍后重试。~
+    error: 加载失败，请稍后重试。
   gradient: # https://webgradients.com/
     start: 'linear-gradient(to right, hsl(215, 95%, 64%), hsl(195, 95%, 60%), hsl(165, 95%, 56%), hsl(165, 95%, 56%), hsl(195 95% 60%), hsl(215, 95%, 64%))'
     search: 'linear-gradient(to right, #04F3FF, #08FFC6, #DDF730, #FFBD19, #FF1FE0, #C418FF, #04F3FF)'
 
 default:
-  avatar: https://mscphoto.pages.dev/WebsiteRes/head.svg
-  link: https://mscphoto.pages.dev/WebsiteRes/MyMother.svg
-  cover: https://mscphoto.pages.dev/WebsiteRes/ErrorPhoto.svg
-  image: https://mscphoto.pages.dev/WebsiteRes/photo.svg
+  avatar: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.9/avatar/round/3442075.svg
+  link: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.9/link/8f277b4ee0ecd.svg
+  cover: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.9/cover/76b86c0226ffd.svg
+  image: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.9/image/2659360.svg
+  project: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.9/image/2779789.png
+  banner: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.9/banner/books.jpg
 
 api_host:
   ghapi: https://api.github.com

@@ -158,7 +158,7 @@ inject:
     - <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" media="all" onload="this.media='all'" />
     - <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="all" onload="this.media='all'" />
     - <link href="https://lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    - <link rel="stylesheet" href="/css/mycss.css">
+    - <link rel="stylesheet" href="/medias/Mainbackground.css" type="text/css">
     - <link href="https://cdn.bootcdn.net/ajax/libs/bttn.css/0.2.4/bttn.css" rel="stylesheet">
     - <meta name="baidu-site-verification" content="codeva-9Pi3gkWtSZ" />
 

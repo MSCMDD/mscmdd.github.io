@@ -1,16 +1,16 @@
 ---
-abbrlink: ''
+abbrlink: 9e7ed75
 author: Ленинград
-banner: https://maserver.netlify.app/images/banner/mines.jpg
+banner: 'https://maserver.netlify.app/images/banner/mines.jpg'
 categories:
-- - 安那其共产主义
-cover: https://maserver.netlify.app/images/banner/6.jpg
+  - - 安那其共产主义
+cover: 'https://maserver.netlify.app/images/banner/6.jpg'
 date: '2023-08-20T22:02:51.861025+08:00'
-excerpt: Minecraft服务器的共产主义尝试 不知不觉中，我整个假期都在维护服务器，以下是对服务器共产主义尝试的总结。 游玩服务器的玩家们在本文被称为“社员” 类别：小型虚拟社会实验 主题：在生产力足够的条件下能否实现共产主义 实验状态：**进行中** graph LR A[服务器] --&gt; B[M-A互助公社--新存档] A --&gt; C[新和谐公社--旧存档]     主题成功实验 民主决...
+excerpt: "Minecraft服务器的共产主义尝试\_不知不觉中，我整个假期都在维护服务器，以下是对服务器共产主义尝试的总结。\_游玩服务器的玩家们在本文被称为“社员”\_类别：小型虚拟社会实验\_主题：在生产力足够的条件下能否实现共产主义\_实验状态：**进行中**\_graph\_LR\_A[服务器]\_--&gt;\_B[M-A互助公社--新存档]\_A\_--&gt;\_C[新和谐公社--旧存档]\_\_\_\_\_主题成功实验\_民主决..."
 tags:
-- 公社事务
-- Minecraft
-- 学业革命
+  - 公社事务
+  - Minecraft
+  - 学业革命
 title: Minecraft服务器的共产主义尝试
 updated: '2024-01-04T22:43:12.480+08:00'
 ---

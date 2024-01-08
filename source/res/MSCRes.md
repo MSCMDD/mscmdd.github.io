@@ -1,7 +1,7 @@
 ---
 layout: wiki
 wiki: res
-title: MSC磁铁学生公社资源区
+title: 磁铁学生公社(MSC)资源区
 order: 301
 ---
 {% image /medias/MSC.svg 磁铁学生公社(MSC)徽标 width:200px padding:16px %}

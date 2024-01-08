@@ -1,6 +1,6 @@
 ---
 layout: wiki  # 使用wiki布局模板
-wiki: mdd-law # 这是项目名
+wiki: msc-law # 这是项目名
 title: 《磁铁开发部(MDD)民主临时管制制度》
 order: 0
 ---

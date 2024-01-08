@@ -1,0 +1,25 @@
+name: 关于M&A互助联盟
+title: 关于M&A互助联盟
+subtitle: 'MSC & AoMe | AoMe & MSC'
+tags: 关于联盟
+icon: https://msc-a.netlify.app/medias/logo.svg
+cover: https://msc-a.netlify.app/medias/logo.svg
+description: MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物。
+sidebar: 
+  - search:
+    override: search
+    filter: /document/about/
+  - toc
+  - timeline_stellar_releases
+  - related
+path: /document/about/
+toc:
+  '双公社联盟':
+    - index
+  '关于MSC磁铁学生公社':
+    - msc/main
+    - msc/mdd
+  '关于AoMe奥美互助公社':
+    - aome/main
+  '加入我们':
+    - join/index

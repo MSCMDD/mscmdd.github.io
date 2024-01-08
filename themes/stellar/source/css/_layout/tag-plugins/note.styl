@@ -2,7 +2,7 @@
   position: relative
   padding: 0.25rem 1rem
   border-radius: $border-block
-  background: var(--theme-bg2)
+  background: var(--theme-block)
   overflow: hidden
   if hexo-config('tag_plugins.note.border') == true
     border: 1px solid var(--theme-border)
@@ -31,6 +31,7 @@
     background: var(--block-hover)
 .md-text .tag-plugin.note[child=codeblock]
   padding: 0
+  background: var(--theme-codeblock)
   >.title, >.body:only-child
     margin-top: 0
   >.body

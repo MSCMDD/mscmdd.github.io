@@ -22,7 +22,7 @@ function layout_post_card(layout, post, content) {
   return el;
 }
 
-function layout_posts(partial) {
+function layout_post_list(partial) {
   var el = '';
   el += '<div class="post-list post">';
   if (is_home()) {
@@ -48,22 +48,24 @@ function layout_posts(partial) {
   return el;
 }
 
-function layout_wikis(partial) {
+function layout_wiki_list(partial) {
   var el = '';
-  var wikis = [];
-  const projects = theme.wiki.projects;
-  for (let proj_name of Object.keys(projects)) {
-    let proj = projects[proj_name];
-    if (proj.index === false || proj.pages == undefined || proj.pages.length === 0) {
+  const { shelf, tree } = theme.wiki;
+  for (let pid of shelf) {
+    let proj = tree[pid];
+    if (proj == null) {
+      continue;
+    }
+    if (proj.pages == undefined || proj.pages.length === 0) {
       continue;
     }
     if (page.filter === false) {
-      // all wikis
+      // wikiList
       el += '<div class="post-list wiki">';
       el += layout_post_card('wiki', proj.homepage, partial(proj));
       el += '</div>';
     } else if (proj.tags && proj.tags.includes(page.tagName) === true) {
-      // filtered wikis
+      // filtered wikiList
       el += '<div class="post-list wiki filter">';
       el += layout_post_card('wiki', proj.homepage, partial(proj));
       el += '</div>';
@@ -71,91 +73,17 @@ function layout_wikis(partial) {
   }
   return el;
 }
-
-function layout_post_pin_article(type,post,content){
-  var el='';
-  if(post.post===undefined){
-    post.post='article';
-  }
-  //文章简述
-  var articleDescription='';
-  if(post.excerpt){
-    articleDescription=strip_html(post.excerpt)
-  }else if(post.description){
-    articleDescription=post.description
-  }else if(post.content&&theme.article.auto_excerpt>0){
-    articleDescription=truncate(strip_html(post.content),{length:theme.article.auto_excerpt})
-  }
-
-  el +='<div class="blog-slider__item swiper-slide">';
-  el +='<a class="blog-slider__img" href="' + url_for(post.link || post.path) + '">';
-  el +='<img width="48" height="48" no-lazy src="' + post.swiper_thumbnail + '" alt=""/>';
-  el +='</a>';
-  el +='<div class="blog-slider__content">';
-  el +='<span class="blog-slider__code">'+ date(post.date,config.date_format) +'</span>';
-  el +='<a class="blog-slider__title" href="' + url_for(post.link || post.path) + '" title="'+ (post.title || post.seo_title) +'">'+(post.title || post.seo_title) +'</a>';
-  el +='<div class="blog-slider__text">'+articleDescription +'</div>';
-  el +='<a class="blog-slider__button" href="' + url_for(post.link || post.path) + '">详情</a>';
-  el +='</div>';
-  el +='</div>';
-  return el;
-}
-
-function layout_posts(partial) {
-  var el = '';
-  el += '<div class="post-list post">';
-  if (is_home()) {
-    // pinned posts
-    const pinned = site.posts.filter(function(post){
-      return post.pin !== undefined;
-    }).sort((config.index_generator && config.index_generator.order_by) || '-date');
-
-    if (page.current === 1) {
-      el += '<div id="_custom-post-categories"></div>';
-      if(theme.customSwiperTopArticle.enable){
-        el+='<div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container">';
-        el+='<div class="blog-slider__wrp swiper-wrapper">';
-        pinned.forEach((post,i)=>{
-          el+=layout_post_pin_article('post',post,partial(post));
-        });
-        el+='</div>';
-        el+='<div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div>';
-        el+='</div>';
-      }else{
-        pinned.forEach((post,i)=>{
-          el += layout_post_card('post',post,partial(post));
-        });
-      }
-    }
-    // unpinned posts
-    page.posts.each(function(post){
-      if (theme.customSwiperTopArticle.enable) {
-        el += layout_post_card('post', post, partial(post));
-      }else{
-        if(post.pin == undefined){
-          el += layout_post_card('post',post,partial(post));
-        }
-      }
-    })
-  } else {
-    page.posts.each(function(post){
-      el += layout_post_card('post', post, partial(post));
-    })
-  }
-  el += '</div>';
-  return el;
-}
 %>
 
 <% if (page.menu_id === 'post') { %>
   <%- partial('_partial/main/navbar/list_post') %>
-  <%- layout_posts(function(post){
+  <%- layout_post_list(function(post){
     return partial('_partial/main/post_list/post_card', {post: post})
   }) %>
   <%- partial('_partial/main/post_list/paginator') %>
 <% } else if (page.menu_id === 'wiki') { %>
   <%- partial('_partial/main/navbar/list_wiki') %>
-  <%- layout_wikis(function(proj){
+  <%- layout_wiki_list(function(proj){
     return partial('_partial/main/post_list/wiki_card', {proj: proj})
   }) %>
 <% } %>
