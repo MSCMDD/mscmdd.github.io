@@ -51,7 +51,7 @@ function switchPostChart () {
 
 <div id="friend-content" class="friend-content"></div>
 <link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
-<script src="https://unpkg.com/qexo-friends/Stellar/friends.js"></script>
+<script src="/siteres/friends.js"></script>
 <script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
 
 ### 关于磁铁学生公社(MSC)
