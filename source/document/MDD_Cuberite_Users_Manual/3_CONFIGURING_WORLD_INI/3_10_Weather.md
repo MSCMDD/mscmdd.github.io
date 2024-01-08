@@ -6,7 +6,7 @@ comment_id: /document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/
 ---
 ## 10 - WEATHER
 
-指定世界上的天气设置。所有的数值都是以ticks来测量的。
+指定世界上的天气设置。所有的数值均以Tick为单位。
 
 ### 可选选项
 

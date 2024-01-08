@@ -16,4 +16,4 @@ comment_id: /document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/
 | X | 出生点的X坐标 | 0 |
 | Y | 出生点的Y坐标 | 点(X, Z)处地形的高度 |
 | Z | 出生点的Z坐标 | 0 |
-| PregenerateDistance | 在初始世界生成时生成的每个方向上的块数。</br>Number of chunks in each direction that are</br>generated on initial world generation. | release为20。Debug为9。 |
+| PregenerateDistance | 初始世界生成时生成的每个方向的区块数。</br>Number of chunks in each direction that are</br>generated on initial world generation. | release为20。Debug为9。 |

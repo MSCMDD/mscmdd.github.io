@@ -6,7 +6,7 @@ comment_id: /document/MDD_Cuberite_Users_Manual/0_INTRODUCTION/
 ---
 ## 3 - 历史
 
-Cuberite在2010年末由FakeTruth创建，最初名为"MCServer"，作为替代原版服务器，旨在提供更好的性能和可配置性。后来，它成为开源项目，并吸引了其他开发者的贡献。
+Cuberite在2010年末由[FakeTruth](https://www.fancyaddress.com)创建，最初名为"MCServer"，作为替代原版服务器，旨在提供更好的性能和可配置性。后来，它成为开源项目，并吸引了其他开发者的贡献。
 
 2013年夏天，主要的MCServer存储库从Google Code迁移到GitHub，并引入了新的构建系统。那个时候，还有几位新的开发者加入了项目，该项目开始增加成员并变得更加受欢迎。
 
