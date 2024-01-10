@@ -162,6 +162,7 @@ inject:
     - <link href="https://cdn.bootcdn.net/ajax/libs/bttn.css/0.2.4/bttn.css" rel="stylesheet">
     - <meta name="baidu-site-verification" content="codeva-9Pi3gkWtSZ" />
     - <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    - <script async src="https://mscphoto.pages.dev/WebsiteRes/cdninfo.js"></script>
 
 # Extensions
 plugins:
