@@ -239,7 +239,7 @@ footer:
        - '[前往M&A互助公社服务器](https://maserver.netlify.app/)'
   content: | # 支持 Markdown 格式
     本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
-    <span class="site-uv" title="{{ __('footer.total_visitors') }}">我们的第<span id="busuanzi_value_site_uv"></span>位达瓦里氏, </span><span class="site-pv" title="{{ __('footer.total_views') }}">经过<span id="busuanzi_value_site_pv"></span>次回眸与你相遇</span>,当前CDN节点: <span id="cdn">unknown</span>
+    <span class="site-uv" title="{{ __('footer.total_visitors') }}">我们的第<span id="busuanzi_value_site_uv"></span>位达瓦里氏, </span><span class="site-pv" title="{{ __('footer.total_views') }}">经过<span id="busuanzi_value_site_pv"></span>次回眸与你相遇</span>，当前CDN节点: <span id="cdn">unknown</span>
      Powered by [Hexo](https://hexo.io/) | Theme [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) | Comment powered by [Waline](https://github.com/walinejs/waline)
      
     <script type="text/javascript">
