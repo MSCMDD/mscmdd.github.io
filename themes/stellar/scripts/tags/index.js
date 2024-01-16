@@ -22,6 +22,7 @@ hexo.extend.tag.register('sites', require('./lib/sites')(hexo))
 hexo.extend.tag.register('ghcard', require('./lib/ghcard')(hexo))
 hexo.extend.tag.register('toc', require('./lib/toc')(hexo))
 hexo.extend.tag.register('timeline', require('./lib/timeline')(hexo), {ends: true})
+hexo.extend.tag.register('md', require('./lib/md')(hexo))
 
 // express
 hexo.extend.tag.register('checkbox', require('./lib/checkbox')(hexo, 'checkbox'))
@@ -38,4 +39,6 @@ hexo.extend.tag.register('poetry', require('./lib/poetry')(hexo), true)
 hexo.extend.tag.register('quot', require('./lib/quot')(hexo))
 hexo.extend.tag.register('hashtag', require('./lib/hashtag')(hexo))
 hexo.extend.tag.register('okr', require('./lib/okr')(hexo), {ends: true})
+hexo.extend.tag.register('audio', require('./lib/audio')(hexo))
+hexo.extend.tag.register('video', require('./lib/video')(hexo))
 // others

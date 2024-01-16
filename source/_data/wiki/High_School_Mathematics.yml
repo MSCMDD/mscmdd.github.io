@@ -1,0 +1,30 @@
+name: 高中数学学业革命笔记资料
+title: 高中数学学业革命笔记资料
+subtitle: '数学 - 学业革命 | 磁铁学生公社资源区'
+icon: https://acgapi.shifeiti.com/api/
+cover: https://acgapi.shifeiti.com/api/
+tags: [磁铁学生公社(MSC), 学业革命]
+coverpage: true
+description: 磁铁学生公社资源区和AoMe奥美互助公社资源区。
+sidebar: 
+  - search:
+    override: search
+    filter: /document/High_School_Mathematics/
+  - toc
+path: /document/High_School_Mathematics/
+toc:
+  '概述':
+    - index
+  '内容':
+    - 第一章_集合、逻辑与数学基础/index
+    - 第二章_不等式/index
+    - 第三章_函数/index
+    - 第四章_三角函数/index
+    - 第五章_平面向量/index
+    - 第六章_立体几何/index
+    - 第七章_空间向量/index
+    - 第八章_直线与圆/index
+    - 第九章_圆锥曲线/index
+    - 第十章_数列/index
+    - 第十一章_导数/index
+    - 第十二章_概率与统计/index
