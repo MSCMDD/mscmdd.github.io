@@ -6,7 +6,7 @@ updated: '2024-01-02T12:20:16.340+08:00'
 ---
 <div id="friend-content" class="friend-content"></div>
 <link rel="stylesheet" href="https://npm.elemecdn.com/qexo-friends/friends.css"/>
-<script src="https://mscphoto.pages.dev/WebsiteRes/friends.js"></script>
+<script src="https://registry.npmmirror.com/qexo-friends/latest/files/Stellar/friends.js"></script>
 <script>loadQexoFriends("friend-content", "https://qexo.giize.com")</script>
 
 ### 申请友链
