@@ -1,6 +1,6 @@
 ######## Stellar info ########
 stellar:
-  version: '1.22.1'
+  version: '1.25.0'
   homepage: 'https://xaoxuu.com/wiki/stellar/'
   repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
   cdn_css: # Use cdn links instead of /css/main.css
@@ -18,48 +18,68 @@ open_graph:
 
 
 ######## Sidebar ########
-sidebar:
-  logo:
-    avatar: '[config.avatar](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
-    title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
-  menu:
-     about: '[<i class="fa fa-institution"></i>](/about/)'
-     post: '[<i class="fa fa-leanpub"></i>文章](/)'
-     wiki: '[<i class="fa fa-newspaper-o"></i>档案](/document/)'
-     bulletin: '[<i class="fa fa-object-group"></i>公示板](/bulletin/)'
-     comments: '[<i class="	fa fa-comments-o"></i>留言](/contact/#comments/)'
-     friends: '[-|<i class="fa fa-handshake-o"></i>友情链接|-](/friends/)'
-     write: '[<i class="fa fa-file-text-o"></i>文学部](https://www.msc-a.giize.com/)'
-     Resource: '[<i class="fa fa-folder-open-o"></i>资源区](/res/)'
-     Games: '[<i class="fa fa-gift"></i>游戏区](/games/)'
-  # Sidebar widgets
-  widgets:
-    #### 自动生成的页面 ####
-    # 主页
-    home: search, recent, timeline, welcome, tagcloud # for home
-    # 博客索引页
-    blog_index: search_blog, recent, timeline # for categories/tags/archives
-    # 文档索引页
-    wiki_index: search_docs, recent, timeline, tagcloud, welcome # for wiki
-    # 其它（404）
-    others: search, recent, timeline # for 404 and ...
-    #### 手动创建的页面 ####
-    # 文章内页
-    post: search_blog, toc, ghrepo, ghissues # for pages using 'layout:post'
-    # 文档内页
-    wiki: search, ghrepo, toc, ghissues, related # for pages using 'layout:wiki'
-    # 其它 layout:page 的页面
-    page: toc, search # for custom pages using 'layout:page'
-    # 资源
+# 左上角显示的 logo 区域，包含图标、大标题、副标题
+logo:
+  avatar: '[config.avatar](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+  title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+  subtitle: 'Magnet Students Commune | AoMe Mutual Aid Commune' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 
-######## Index ########
-post-index: # 近期发布 分类 标签 归档 and ...
-  # '朋友文章': /friends/rss/
+# 侧边栏主功能导航菜单
+# 自己可以增加任意的键值对
+# 键：就是 menu_id，后面需要用到
+# 值：就是显示的 md 链接，方括号内支持文字和图片标签
+menu:
+  about: '[<i class="fa fa-institution"></i>](/about/)'
+  post: '[<i class="fa fa-leanpub"></i>文章](/)'
+  wiki: '[<i class="fa fa-newspaper-o"></i>档案](/document/)'
+  bulletin: '[<i class="fa fa-object-group"></i>公示板](/bulletin/)'
+  comments: '[<i class="	fa fa-comments-o"></i>留言](/contact/#comments/)'
+  friends: '[-|<i class="fa fa-handshake-o"></i>友情链接|-](/friends/)'
+  write: '[<i class="fa fa-file-text-o"></i>文学部](https://www.msc-a.giize.com/)'
+  Resource: '[<i class="fa fa-folder-open-o"></i>资源区](/res/)'
+  Games: '[<i class="fa fa-gift"></i>游戏区](/games/)'
 
 
 ######## Main ########
-breadcrumb:
-  home: home # config.title / config.author / home or custom content
+# 站点主结构树
+site_tree:
+  # 主页配置
+  home:
+    sidebar: search, recent, timeline, welcome, tagcloud # for home
+  # 博客配置
+  blog:
+    base_dir: blog # 只影响自动生成的页面路径
+    menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 post 的页面默认使用这里配置的 menu_id
+    sidebar: search_blog, recent, timeline # for categories/tags/archives
+    nav_tabs:  # 近期发布 分类 标签 专栏 归档 and ...
+      # '朋友文章': /friends/rss/
+  # 博客文章配置
+  post:
+    menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 post 的页面默认使用这里配置的 menu_id
+    sidebar: search_blog, toc, related, ghrepo, ghissues # for pages using 'layout:post'
+  # 博客专栏配置
+  topic:
+    base_dir: topic # 只影响自动生成的页面路径
+    menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 topic 的页面默认使用这里配置的 menu_id
+    sidebar: search_blog, toc, related # for topic
+  # wiki配置
+  wiki:
+    base_dir: document # 只影响自动生成的页面路径
+    menu_id: wiki # 未在 front-matter 中指定 menu_id 时，layout 为 wiki 的页面默认使用这里配置的 menu_id
+    sidebar: search_docs, toc, ghissues, related # for wiki
+  # 作者信息配置
+  author: 
+    base_dir: author # 只影响自动生成的页面路径
+    menu_id: post
+    sidebar: search_blog, recent, timeline
+  # 错误页配置
+  error_page:
+    menu_id: post
+    '404': '/404.html'
+    sidebar: search, recent, timeline
+  # 其它自定义页面配置 layout: page
+  page:
+    sidebar: toc, search
 
 ######## Article ########
 article:
