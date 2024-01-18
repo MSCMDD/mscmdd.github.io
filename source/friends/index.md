@@ -13,9 +13,9 @@ updated: '2024-01-02T12:20:16.340+08:00'
 
 {% folding 我的链接 color:white %}
 
-网站名：`copy M&A互助联盟`
+网站名：`M&A互助联盟`
 
-网站简洁：`MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物`
+简介：`MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物`
 
 链接：`https://mscaome.netlify.app/`
 
