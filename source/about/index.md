@@ -12,7 +12,7 @@ mermaid: true
 layout: "wiki"
 date: 2023-04-21 12:14:08
 ---
-<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.2/echarts.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
 
 MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物。
 
