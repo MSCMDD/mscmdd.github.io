@@ -150,7 +150,9 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+- type: cjh_google_url_submitter
+- type: cjh_bing_url_submitter
+- type: cjh_baidu_url_submitter
 
 inject:
   head:
@@ -241,9 +243,7 @@ hexo_submit_urls_to_search_engine:
   baidu: 1 # 是否向baidu提交（0：否；1：是）
   txt_path: submit_urls.txt ## 文本文档名， 需要推送的链接会保存在此文本文档里
   baidu_host: https://msc-a.giize.com ## 在百度站长平台中注册的域名
-  baidu_token: ubswQdGXPjwkK4la  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
   bing_host: https://mscmdd.github.io ## 在bing站长平台中注册的域名
-  bing_token: 659bdf544c5446dfa183f1deef99c668  ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
   google_host: https://mscmdd.github.io ## 在google站长平台中注册的域名
   google_proxy: 0 # 向谷歌提交网址所使用的系统 http 代理，填 0 不使用，以Clash为例
   google_key_file: genial-xxxxxx-xxxxxx-xxxxxxxxx.json #Google服务项目的json文件名全称，放于网站根目录（与hexo _config.yml文件位置相同），请不要把json文件内容直接发布在公众仓库里!
@@ -254,5 +254,5 @@ hexo_submit_urls_to_search_engine:
 baidu_url_submit:
   count: 3 ## 比如3，代表提交最新的三个链接
   host: https://msc-a.giize.com ## 在百度站长平台中注册的域名
-  token: ubswQdGXPjwkK4la ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
+  token: ubswQ ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
