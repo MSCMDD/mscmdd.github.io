@@ -4,8 +4,8 @@ date: 2023-04-27 22:02:40
 menu_id: comments
 ---
 <div id="qexot" class="tag-plugin timeline"></div>
-<script src="https://cdn.jsdelivr.net/gh/MSCMDD/Qexo-Talks@main/Stellar/qexo_talk.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MSCMDD/Qexo-Talks@main/Stellar/qexo_talk.css">
+<script src="https://gcore.jsdelivr.net/gh/MSCMDD/Qexo-Talks@main/Stellar/qexo_talk.js"></script>
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/MSCMDD/Qexo-Talks@main/Stellar/qexo_talk.css">
 <script>showQexoTalks("qexot", "https://qexo.giize.com", 5)</script>
 
 # 没有这些社员的贡献，网站是不可能构建完成的，衷心感谢各位参与网站构建的社员！~
