@@ -11,7 +11,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/res/MSCRes.html</loc>
-        <lastmod>2024-01-31T07:10:01.143Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.552Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -20,7 +20,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/res/</loc>
-        <lastmod>2024-01-31T07:10:01.143Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.552Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -29,16 +29,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/res/MSCRES/Study.html</loc>
-        <lastmod>2024-01-31T07:10:01.143Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.552Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -47,7 +38,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/games/</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.536Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -56,7 +47,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/games/minecraftserver.html</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.536Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -65,7 +56,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/games/navy.html</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.536Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -74,79 +65,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/games/wotb.html</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/aome/main.html</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/join/</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/msc/main.html</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/about/msc/mdd.html</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/msc/law/MDD-Temporary.html</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/msc/law/Temporary.html</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/msc/law/</loc>
-        <lastmod>2024-01-31T07:10:01.127Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.536Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -155,7 +74,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/bulletin/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -164,7 +83,16 @@
     
     <url>
         <loc>https://mscmdd.github.io/contact/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -173,7 +101,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -182,7 +110,16 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -191,7 +128,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E4%25B8%2580%25E7%25AB%25A0_%25E9%259B%2586%25E5%2590%2588%25E3%2580%2581%25E9%2580%25BB%25E8%25BE%2591%25E4%25B8%258E%25E6%2595%25B0%25E5%25AD%25A6%25E5%259F%25BA%25E7%25A1%2580/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -200,7 +137,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E4%25B8%2583%25E7%25AB%25A0_%25E7%25A9%25BA%25E9%2597%25B4%25E5%2590%2591%25E9%2587%258F/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -209,7 +146,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E4%25B8%2589%25E7%25AB%25A0_%25E5%2587%25BD%25E6%2595%25B0/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -218,7 +155,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E4%25B9%259D%25E7%25AB%25A0_%25E5%259C%2586%25E9%2594%25A5%25E6%259B%25B2%25E7%25BA%25BF/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -227,7 +164,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E4%25BA%258C%25E7%25AB%25A0_%25E4%25B8%258D%25E7%25AD%2589%25E5%25BC%258F/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -236,7 +173,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E4%25BA%2594%25E7%25AB%25A0_%25E5%25B9%25B3%25E9%259D%25A2%25E5%2590%2591%25E9%2587%258F/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -245,7 +182,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E5%2585%25AB%25E7%25AB%25A0_%25E7%259B%25B4%25E7%25BA%25BF%25E4%25B8%258E%25E5%259C%2586/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -254,16 +191,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E5%2585%25AD%25E7%25AB%25A0_%25E7%25AB%258B%25E4%25BD%2593%25E5%2587%25A0%25E4%25BD%2595/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E5%258D%2581%25E4%25BA%258C%25E7%25AB%25A0_%25E6%25A6%2582%25E7%258E%2587%25E4%25B8%258E%25E7%25BB%259F%25E8%25AE%25A1/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -272,7 +200,16 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E5%258D%2581%25E4%25B8%2580%25E7%25AB%25A0_%25E5%25AF%25BC%25E6%2595%25B0/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E5%258D%2581%25E4%25BA%258C%25E7%25AB%25A0_%25E6%25A6%2582%25E7%258E%2587%25E4%25B8%258E%25E7%25BB%259F%25E8%25AE%25A1/</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -281,7 +218,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E5%258D%2581%25E7%25AB%25A0_%25E6%2595%25B0%25E5%2588%2597/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -290,7 +227,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/High_School_Mathematics/%25E7%25AC%25AC%25E5%259B%259B%25E7%25AB%25A0_%25E4%25B8%2589%25E8%25A7%2592%25E5%2587%25BD%25E6%2595%25B0/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -299,7 +236,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/0_INTRODUCTION/0_1_Introduction.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -308,7 +245,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/0_INTRODUCTION/0_2_What_is_Cuberite.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -317,7 +254,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/0_INTRODUCTION/0_3_History.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -326,7 +263,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/1_INSTALLING/1_1_Pre-Compiled_Builds.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -335,7 +272,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/1_INSTALLING/1_2_Compiling_Cuberite_Yourself.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -344,7 +281,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/1_INSTALLING/1_3_Running_Cuberite.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -353,7 +290,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/2_CONFIGURATION_BASICS/2_1_CONFIGURATION_OVERVIEW.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -362,7 +299,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/2_CONFIGURATION_BASICS/2_2_PERMISSIONS.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -371,7 +308,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/2_CONFIGURATION_BASICS/2_3_WEBADMIN.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -380,7 +317,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/2_CONFIGURATION_BASICS/2_4_WORLDS.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -389,7 +326,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/2_CONFIGURATION_BASICS/2_5_PLUGINS.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -398,7 +335,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_10_Weather.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -407,7 +344,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_11_Generator.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -416,7 +353,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_12_Other.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -425,7 +362,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_13_Example_Configurations.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -434,16 +371,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_1_What_is_world-ini.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_3_Broadcasting.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -452,7 +380,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_2_General.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -460,8 +388,8 @@
     
     
     <url>
-        <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_4_SpawnPosition.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_3_Broadcasting.html</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -470,7 +398,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_5_Storage.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -478,8 +406,8 @@
     
     
     <url>
-        <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_7_Physics.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_4_SpawnPosition.html</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -488,7 +416,16 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_6_Plants.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_7_Physics.html</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -497,7 +434,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_8_Mechanics.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -506,7 +443,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/3_CONFIGURING_WORLD_INI/3_9_Monsters.html</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -515,7 +452,70 @@
     
     <url>
         <loc>https://mscmdd.github.io/document/MDD_Cuberite_Users_Manual/4_MULTIWORLDS/</loc>
-        <lastmod>2024-01-31T07:10:01.123Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/aome/main.html</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/join/</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/msc/main.html</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/about/msc/mdd.html</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/msc/law/MDD-Temporary.html</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/msc/law/Temporary.html</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://mscmdd.github.io/document/msc/law/</loc>
+        <lastmod>2024-01-31T07:11:14.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -524,7 +524,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/about/focus.html</loc>
-        <lastmod>2024-01-31T07:10:01.119Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.528Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -533,7 +533,7 @@
     
     <url>
         <loc>https://mscmdd.github.io/about/</loc>
-        <lastmod>2024-01-31T07:10:01.119Z</lastmod>
+        <lastmod>2024-01-31T07:11:14.528Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
