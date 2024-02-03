@@ -1,0 +1,18 @@
+# 网站导航 其他
+- title: 磁铁云
+  url: https://cloud.mscmdd.eu.org/static/img/favicon.ico
+  cover: 公社集体资源站
+  icon: https://mscaome.pages.dev/medias/avatar.svg
+  description: MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物
+
+- title: M&A互助公社服务器
+  url: https://mscaome.pages.dev/
+  cover: 我们虽然没有高配置的服务器，但我们有梦想，我们有希望，我们有对Minecraft的热爱！
+  icon: https://msc-a.netlify.app/medias/logo.svg
+  description: MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物
+
+- title: M&A互助联盟论坛
+  url: https://bbs.mscmdd.eu.org/
+  cover: 公社的交流论坛
+  icon: https://msc-a.netlify.app/medias/logo.svg
+  description: MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物

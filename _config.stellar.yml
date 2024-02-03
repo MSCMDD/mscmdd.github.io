@@ -33,9 +33,10 @@ menu:
   post: '[<i class="fa fa-leanpub"></i>文章](/)'
   wiki: '[<i class="fa fa-newspaper-o"></i>档案](/document/)'
   bulletin: '[<i class="fa fa-object-group"></i>公示板](/bulletin/)'
-  comments: '[<i class="	fa fa-comments-o"></i>留言](/contact/#comments/)'
-  friends: '[-|<i class="fa fa-handshake-o"></i>友情链接|-](/friends/)'
+  comments: '[<i class="fa fa-comments-o"></i>留言](/contact/#comments/)'
+  friends: '[<i class="fa fa-handshake-o"></i>友情链接](/friends/)'
   Resource: '[<i class="fa fa-folder-open-o"></i>资源区](/res/)'
+  SiteMap: '[<i class="fa fa-location-arrow">导航](/guide/)'
   Games: '[<i class="fa fa-gift"></i>游戏区](/games/)'
 
 
