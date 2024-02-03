@@ -1,8 +1,8 @@
 # 网站导航 其他
 - title: 磁铁云
-  url: https://cloud.mscmdd.eu.org/static/img/favicon.ico
+  url: https://cloud.mscmdd.eu.org/
   cover: 公社集体资源站
-  icon: https://mscaome.pages.dev/medias/avatar.svg
+  icon: https://cloud.mscmdd.eu.org/static/img/favicon.ico
   description: MSC&AoMe联合编辑部是AoMe奥美互助公社与MSC磁铁学生公社缔结团结协定的产物
 
 - title: M&A互助公社服务器
