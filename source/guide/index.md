@@ -6,7 +6,7 @@ updated: '2024-02-03T12:20:16.340+08:00'
 ---
 ### 主站
 
-{% friends Guide/Guide %}
+{% friends Guide/MainSite %}
 
 ### 其他
 
