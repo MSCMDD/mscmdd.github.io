@@ -1,0 +1,28 @@
+name: 另一个马克思
+title: 《另一个马克思 从早期手稿到国际工人协会》
+subtitle: '从早期手稿到国际工人协会 | 另一个马克思'
+tags: 左翼书籍
+icon: http://www.crup.com.cn/ShowPic/Show?vpath=/fzfm/xiao/46440-(WBS)-sl.jpg&vtag=1&ptype=0
+cover: http://www.crup.com.cn/ShowPic/Show?vpath=/fzfm/xiao/46440-(WBS)-sl.jpg&vtag=1&ptype=0
+coverpage: true
+description: ［意］马塞罗·默斯托（MarcelloMusto）/著</br>孙亮/译</br>M&A互助公社/录入
+sidebar: 
+  - search:
+    override: search
+    filter: /document/reference-books/Another_Marx/
+  - toc
+  - timeline_stellar_releases
+  - related
+path: /document/reference-books/Another_Marx/
+toc:
+  '前言':
+    - statement
+    - TranslateStatement
+    - directory
+    - Introduction
+  '第一部分 思想影响与早期写作':
+    - Part_1/
+  '第二部分 政治经济学批判':
+    - Part_2/
+  '第三部分 政治斗争':
+    - Part_3/
