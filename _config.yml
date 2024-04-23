@@ -250,3 +250,41 @@ hexo_submit_urls_to_search_engine:
   replace: 0  # 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）
   find_what: 
   replace_with:
+
+pwa:
+  manifest:
+    path: /manifest.json
+    body:
+      "name": "funnycoderstar"
+      "short_name": "star"
+      "theme_color": "rgba(203,7,83,0.86)"
+      "background_color": "#FAFAFA"
+      "display": "standalone"
+      "Scope": "/"
+      "start_url": "/"
+      icons:
+        - src: https://cdn.wangyaxing.cn/icon-144x144.png?v=1
+          sizes: 144x144
+          type: image/png
+        - src: https://cdn.wangyaxing.cn/icon-128x128.png
+          sizes: 128x128
+          type: image/png
+        - src: https://cdn.wangyaxing.cn/icon-96x96.png
+          sizes: 96x96
+          type: image/png
+  serviceWorker:
+    path: /sw.js
+    preload:
+      urls:
+        - /
+      posts: 5
+    opts:
+      networkTimeoutSeconds: 5
+    routes:
+      - pattern: !!js/regexp /hm.baidu.com/
+        strategy: networkOnly
+      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /\//
+        strategy: networkFirst
+  priority: 5
