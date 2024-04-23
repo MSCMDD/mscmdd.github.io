@@ -250,22 +250,3 @@ hexo_submit_urls_to_search_engine:
   replace: 0  # 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）
   find_what: 
   replace_with:
-
-# Offline
-## Config passed to sw-precache
-## https://github.com/JLHwung/hexo-offline
-offline:
-  maximumFileSizeToCacheInBytes: 10485760
-  staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,jpeg,gif,svg,json,xml}
-  stripPrefix: public
-  verbose: true
-  runtimeCaching:
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn.example.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn.another-example.org
