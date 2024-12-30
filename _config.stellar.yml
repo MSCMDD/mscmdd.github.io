@@ -161,8 +161,10 @@ comments:
   # Waline
   # https://waline.js.org/
   waline:
-    js: https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.js
-    css: https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.css
+    js: https://unpkg.com/@waline/client@2.15.8/dist/waline.js
+    css: https://unpkg.com/@waline/client@2.15.8/dist/waline.css
+    # js: https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.js
+    # css: https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.css
     # Waline server address url, you should set this to your own link
     serverURL: https://aome.giize.com
     # If false, comment count will only be displayed in post page, not in home page
@@ -173,11 +175,11 @@ comments:
     emoji:
     #   - https://unpkg.com/@waline/emojis@1.1.0/weibo
     #   - https://unpkg.com/@waline/emojis@1.1.0/alus
-      - https://registry.npmmirror.com/@waline/emojis/latest/files/bilibili/
+      - https://unpkg.com/@waline/emojis@1.2.0/bilibili
     #   - https://unpkg.com/@waline/emojis@1.1.0/qq
-      - https://registry.npmmirror.com/@waline/emojis/latest/files/tieba/
+      - https://unpkg.com/@waline/emojis@1.2.0/tieba
     #   - https://unpkg.com/@waline/emojis@1.1.0/tw-emoji
-      - https://registry.npmmirror.com/@waline/emojis/latest/files/bmoji/
+      - https://unpkg.com/@waline/emojis@1.2.0/bmoji
     # 设置自己的图床服务，替换默认的 Base 64 编码嵌入（有体积大小限制），在评论中上传图片更加方便
     # imageUploader:
       # 适配了兰空图床V1、V2版本
@@ -407,16 +409,18 @@ plugins:
   # swiper
   swiper:
     enable: true
-    css: https://registry.npmmirror.com/swiper/latest/files/swiper-bundle.min.css
-    js: https://registry.npmmirror.com/swiper/latest/files/swiper-bundle.min.js
+    css: https://unpkg.com/swiper@latest/swiper-bundle.min.css
+    js: https://unpkg.com/swiper@latest/swiper-bundle.min.js
+    # css: https://registry.npmmirror.com/swiper/latest/files/swiper-bundle.min.css
+    # js: https://registry.npmmirror.com/swiper/latest/files/swiper-bundle.min.js
 
 
   # 赫蹏 (Heti) - 专为中文网页内容设计的排版样式增强
   # https://github.com/sivan/heti
   heti:
     enable: false # 此插件会和代码块冲突，仅适用于纯中文博主。
-    css: https://registry.npmmirror.com/heti/latest/files/umd/heti.min.css
-    js: https://registry.npmmirror.com/heti/latest/files/umd/heti.min.js
+    css: https://unpkg.com/heti@latest/umd/heti.min.css
+    js: https://unpkg.com/heti@latest/umd/heti.min.js
 
   # MathJax
   # 需在Markdown文件开头加入mathjax: true
@@ -431,9 +435,9 @@ plugins:
   # 使用 hexo-renderer-markdown-it-plus 作为公式渲染器：npm uninstall hexo-renderer-marked --save npm install hexo-renderer-markdown-it-plus --save
   katex:
     # set <katex: true> to enable in page's front-matter
-    min_css: <link rel="stylesheet" href="https://registry.npmmirror.com/katex/latest/files/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
-    min_js: <script defer src="https://registry.npmmirror.com/katex/latest/files/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
-    auto_render_min_js: <script defer src="https://registry.npmmirror.com/katex/latest/files/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"onload="renderMathInElement(document.body);"></script>
+    min_css: <link rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+    min_js: <script defer src="https://unpkg.com/katex@latest/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+    auto_render_min_js: <script defer src="https://unpkg.com/katex@latest/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"onload="renderMathInElement(document.body);"></script>
 
   # Mermaid - markdwon to flow chart, seq chart, class chart ...
   # 需要安装 npm install --save hexo-filter-mermaid-diagrams
@@ -447,8 +451,8 @@ plugins:
   mermaid:
     # set <mermaid: true> to enable in page's front-matter
     style_optimization: false # use custom style in stellar
-    # js: https://unpkg.com/mermaid@9.0.0/dist/mermaid.min.js
-    js: https://registry.npmmirror.com/mermaid/v9/files/dist/mermaid.min.js
+    js: https://unpkg.com/mermaid@9.0.0/dist/mermaid.min.js
+    # js: https://registry.npmmirror.com/mermaid/v9/files/dist/mermaid.min.js
     # Available themes: default | dark | forest | neutral
     theme: neutral
 
